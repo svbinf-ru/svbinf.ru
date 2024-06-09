@@ -1,3 +1,5 @@
+import '@/styles/_globals.scss'
+
 import styles from './layout.module.scss'
 
 export default function RootLayout({
