@@ -1,5 +1,7 @@
 import '@/styles/_globals.scss'
 
+import Header from '@/components/Header'
+
 import styles from './layout.module.scss'
 
 export default function RootLayout({
@@ -11,7 +13,7 @@ export default function RootLayout({
         <html className={styles.fullHeight} lang="en">
             <body className={styles.fullHeight}>
                 <div className={styles.wrapper}>
-                    <header>header</header>
+                    <Header />
                     {children}
                     <footer>footer</footer>
                 </div>
