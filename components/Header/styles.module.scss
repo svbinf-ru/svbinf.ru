@@ -1,0 +1,55 @@
+@import 'extends';
+@import 'variables';
+
+.header {
+    @extend %blurred-background;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    min-height: $header-height;
+    display: flex;
+    flex-direction: column;
+    padding: 16px 24px;
+    z-index: $z-3;
+}
+
+.headerMenu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title {
+    font-size: x-large;
+    font-weight: bold;
+    text-decoration: none;
+    color: $foreground-primary;
+}
+
+.button {
+    background: transparent;
+    color: $foreground-primary;
+    cursor: pointer;
+}
+
+.headerNavigation {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 64px;
+    padding-top: 32px;
+    padding-bottom: 16px;
+    transition: $transition;
+
+    a {
+        text-decoration: none;
+        color: $foreground-primary;
+        font-size: large;
+    }
+}
+
+.headerNavigationGroup {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
