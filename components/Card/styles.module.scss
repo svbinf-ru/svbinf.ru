@@ -1,0 +1,27 @@
+@import 'variables';
+
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+    padding: 24px;
+    border-radius: 12px;
+    background-color: $background-secondary;
+}
+
+.card[data-image-pos='right'] {
+    flex-direction: row-reverse;
+}
+
+.image {
+    border-radius: 8px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    flex-grow: 1;
+    max-width: 580px;
+}
