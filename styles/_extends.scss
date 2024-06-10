@@ -1,6 +1,6 @@
 @import 'variables';
 
 %blurred-background {
-    background: rgba($background-primary, 0.5);
     backdrop-filter: blur(8px);
+    background: rgba($background-primary, 0.5);
 }
