@@ -2,6 +2,7 @@ import '@/styles/_globals.scss'
 
 import { Raleway } from 'next/font/google'
 
+import { Footer } from '@/components/Footer'
 import { Header } from '@/components/Header'
 
 import styles from './layout.module.scss'
@@ -19,7 +20,7 @@ export default function RootLayout({
                 <div className={styles.wrapper}>
                     <Header />
                     {children}
-                    <footer>footer</footer>
+                    <Footer />
                 </div>
             </body>
         </html>
