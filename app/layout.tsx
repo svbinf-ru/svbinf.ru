@@ -1,6 +1,6 @@
 import '@/styles/_globals.scss'
 
-import Header from '@/components/Header'
+import { Header } from '@/components/Header'
 
 import styles from './layout.module.scss'
 

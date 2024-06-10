@@ -3,13 +3,13 @@
 import { Menu, X } from 'lucide-react'
 import { Raleway } from 'next/font/google'
 import Link from 'next/link'
-import { useState } from 'react'
+import { FC, useState } from 'react'
 
 import styles from './styles.module.scss'
 
 const raleway = Raleway({ subsets: ['cyrillic'] })
 
-export default function Header() {
+export const Header: FC = () => {
     const [menuOpen, setMenuOpen] = useState(false)
     const closeMenu = () => setMenuOpen(false)
     const toggleMenu = () => setMenuOpen((s) => !s)
