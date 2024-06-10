@@ -8,14 +8,26 @@
     padding: 24px;
     border-radius: 12px;
     background-color: $background-secondary;
-}
 
-.card[data-image-pos='right'] {
-    flex-direction: row-reverse;
+    &[data-image-pos='right'] {
+        flex-direction: row-reverse;
+    }
+
+    @media screen and (max-width: $tablet) {
+        &,
+        &[data-image-pos='right'] {
+            flex-direction: column;
+        }
+    }
 }
 
 .image {
     border-radius: 8px;
+
+    @media screen and (max-width: $mobile) {
+        width: calc(100% - 12px);
+        height: auto;
+    }
 }
 
 .text {
