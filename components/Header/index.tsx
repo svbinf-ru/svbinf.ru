@@ -1,13 +1,10 @@
 'use client'
 
 import { Menu, X } from 'lucide-react'
-import { Raleway } from 'next/font/google'
 import Link from 'next/link'
 import { FC, useState } from 'react'
 
 import styles from './styles.module.scss'
-
-const raleway = Raleway({ subsets: ['cyrillic'] })
 
 export const Header: FC = () => {
     const [menuOpen, setMenuOpen] = useState(false)
@@ -16,7 +13,7 @@ export const Header: FC = () => {
 
     if (menuOpen) {
         return (
-            <header className={`${styles.header} ${raleway.className}`}>
+            <header className={styles.header}>
                 <div className={styles.headerMenu}>
                     <Link className={styles.title} href="/" onClick={closeMenu}>
                         Вадим Борисович
@@ -61,10 +58,7 @@ export const Header: FC = () => {
     return (
         <header className={styles.header}>
             <div className={styles.headerMenu}>
-                <Link
-                    className={`${styles.title} ${raleway.className}`}
-                    href="/"
-                >
+                <Link className={styles.title} href="/">
                     Вадим Борисович
                 </Link>
                 <button className={styles.button} onClick={toggleMenu}>
