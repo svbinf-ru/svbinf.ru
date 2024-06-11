@@ -1,0 +1,14 @@
+@import 'variables';
+
+.link {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: $foreground-primary;
+    transition: $transition;
+    text-decoration: none;
+
+    &:hover {
+        color: $foreground-secondary;
+    }
+}
