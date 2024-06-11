@@ -5,7 +5,7 @@ import membraneKeyboard from '@/assets/misc/videos/membrane-keyboard.webp'
 import noiseCancelling from '@/assets/misc/videos/noise-cancelling.webp'
 import raytracingExcel from '@/assets/misc/videos/raytracing-excel.webp'
 
-import { Misc } from './interface'
+import { Misc } from '@/content/utils'
 
 export const videos: Misc[] = [
     {

@@ -6,7 +6,7 @@ import search from '@/assets/misc/articles/search.webp'
 import socialNetworks from '@/assets/misc/articles/social-networks.webp'
 import viruses from '@/assets/misc/articles/viruses.webp'
 
-import { Misc } from './interface'
+import { Misc } from '@/content/utils'
 
 export const articles: Misc[] = [
     {

@@ -6,7 +6,7 @@ import mailspring from '@/assets/misc/programs/mailspring.webp'
 import obsidian from '@/assets/misc/programs/obsidian.webp'
 import sumatrapdf from '@/assets/misc/programs/sumatrapdf.webp'
 
-import { Misc } from './interface'
+import { Misc } from '@/content/utils'
 
 export const programs: Misc[] = [
     {
