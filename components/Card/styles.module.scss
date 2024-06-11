@@ -1,13 +1,15 @@
+@import 'extends';
 @import 'variables';
 
 .card {
+    @extend %blurred-background;
+
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 24px;
     padding: 24px;
     border-radius: 12px;
-    background-color: $background-secondary;
 
     &[data-image-pos='right'] {
         flex-direction: row-reverse;
