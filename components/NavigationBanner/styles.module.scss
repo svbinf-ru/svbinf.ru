@@ -1,0 +1,22 @@
+@import 'extends';
+@import 'variables';
+
+.banner {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: flex-end;
+    text-decoration: none;
+    color: $foreground-primary;
+    height: 256px;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.title {
+    @extend %blurred-background;
+
+    padding: 20px 16px;
+    border-radius: 0;
+    border: none;
+}
