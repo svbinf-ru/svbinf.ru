@@ -26,7 +26,7 @@ export const websites: Misc[] = [
         href: 'https://www.ilovepdf.com/',
         thumbnail: ilovepdf,
         title: 'ILovePDF',
-        description: 'Онлайн-инструменты для работы с PDF-документами',
+        description: 'Онлайн-инструменты для работы с PDF-документами.',
     },
     {
         href: 'https://storyset.com/',
@@ -51,19 +51,19 @@ export const websites: Misc[] = [
         href: 'https://virustotal.com/',
         thumbnail: virustotal,
         title: 'VirusTotal',
-        description: 'Онлайн-антивирус',
+        description: 'Онлайн-антивирус.',
     },
     {
         href: 'https://freemp3cloud.com',
         thumbnail: freemp3cloud,
         title: 'Free Mp3 Cloud',
-        description: 'Поиск и загрузка миллионов треков в формате .mp3',
+        description: 'Поиск и загрузка миллионов треков в формате .mp3.',
     },
     {
         href: 'https://you.com',
         thumbnail: youdotcom,
         title: 'You.com',
-        description: 'Бесплатный ChatGPT в России',
+        description: 'Бесплатный ChatGPT в России.',
     },
     {
         href: 'https://thispersondoesnotexist.com/',

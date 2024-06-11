@@ -52,6 +52,6 @@ export const programs: Misc[] = [
         href: 'https://www.dosbox.com/',
         thumbnail: dosbox,
         title: 'DOSBox',
-        description: 'Эмулятор, запускающий программы для DOS',
+        description: 'Эмулятор, запускающий программы для DOS.',
     },
 ]

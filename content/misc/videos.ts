@@ -30,7 +30,7 @@ export const videos: Misc[] = [
         href: 'https://drive.google.com/file/d/1TxUrg2g28turAR6gAM-wOt6pINfLnnmp/view',
         thumbnail: noiseCancelling,
         title: 'Шумоподавление',
-        description: 'Как работает шумоподавление',
+        description: 'О том, как работает шумоподавление.',
     },
     {
         href: 'https://drive.google.com/file/d/1tsOV0vAzZWiGvKH2WOr-ZlL6fOLEEyaU/view',
