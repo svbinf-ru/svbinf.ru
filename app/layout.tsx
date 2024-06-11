@@ -1,13 +1,13 @@
 import '@/styles/_globals.scss'
 
 import { Raleway } from 'next/font/google'
+import { CSSProperties } from 'react'
 
 import background from '@/assets/blurry-gradient.png'
 import { Footer } from '@/components/Footer'
 import { Header } from '@/components/Header'
 
 import styles from './layout.module.scss'
-import { CSSProperties } from 'react'
 
 const raleway = Raleway({ subsets: ['cyrillic'] })
 
