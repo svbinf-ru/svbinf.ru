@@ -2,5 +2,6 @@
 
 %blurred-background {
     backdrop-filter: blur(8px);
-    background: rgba($background-primary, 0.5);
+    background-color: rgba($background-secondary, 0.5);
+    border: 1px solid $gray;
 }
