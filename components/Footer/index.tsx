@@ -7,12 +7,13 @@ import cat from '@/assets/cat.svg'
 
 import styles from './styles.module.scss'
 
-export const Footer: FC = () => {
-    const catClick = () =>
-        window.open(
-            'https://drive.google.com/file/d/1nkVrF4CewV3TWAls6-qcnPLDVCacmB5U/view',
-        )
+const catClick = () => {
+    window.open(
+        'https://drive.google.com/file/d/1nkVrF4CewV3TWAls6-qcnPLDVCacmB5U/view',
+    )
+}
 
+export const Footer: FC = () => {
     return (
         <footer className={styles.footer}>
             <button className={styles.catButton} onClick={catClick}>
