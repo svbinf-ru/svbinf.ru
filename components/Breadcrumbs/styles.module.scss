@@ -10,10 +10,10 @@
     justify-content: center;
     padding: 4px;
     border-radius: 4px;
-}
 
-.container[data-hoverable='true']:hover {
-    background-color: $background-secondary;
+    &[data-hoverable='true']:hover {
+        background-color: rgba($foreground-secondary, 0.2);
+    }
 }
 
 .breadcrumbs {
