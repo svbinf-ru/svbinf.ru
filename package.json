@@ -6,7 +6,7 @@
         "build": "next build",
         "dev": "next dev",
         "format": "prettier --write .",
-        "lint": "next lint",
+        "lint": "next lint --fix",
         "lint:styles": "stylelint **/*.scss --fix",
         "start": "next start"
     },
