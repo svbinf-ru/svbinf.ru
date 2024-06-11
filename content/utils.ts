@@ -1,4 +1,11 @@
+import { LucideIcon } from 'lucide-react'
 import { StaticImageData } from 'next/image'
+
+export interface Contact {
+    href: string
+    icon: LucideIcon
+    text: string
+}
 
 export interface Misc {
     href: string
