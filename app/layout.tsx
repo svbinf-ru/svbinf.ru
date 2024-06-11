@@ -2,10 +2,12 @@ import '@/styles/_globals.scss'
 
 import { Raleway } from 'next/font/google'
 
+import background from '@/assets/blurry-gradient.png'
 import { Footer } from '@/components/Footer'
 import { Header } from '@/components/Header'
 
 import styles from './layout.module.scss'
+import { CSSProperties } from 'react'
 
 const raleway = Raleway({ subsets: ['cyrillic'] })
 
@@ -14,9 +16,17 @@ export default function RootLayout({
 }: Readonly<{
     children: React.ReactNode
 }>) {
+    const bodyCss: CSSProperties = {
+        backgroundImage: `url('${background.src}')`,
+        backgroundPosition: 'center',
+        backgroundAttachment: 'fixed',
+        backgroundSize: 'cover',
+        backgroundRepeat: 'no-repeat',
+    }
+
     return (
         <html lang="ru">
-            <body className={raleway.className}>
+            <body className={raleway.className} style={bodyCss}>
                 <div className={styles.wrapper}>
                     <Header />
                     {children}
