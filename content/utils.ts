@@ -7,6 +7,13 @@ export interface Contact {
     text: string
 }
 
+export interface Education {
+    full: string
+    thumbnail: StaticImageData
+    title: string
+    description: string
+}
+
 export interface Misc {
     href: string
     thumbnail: StaticImageData
