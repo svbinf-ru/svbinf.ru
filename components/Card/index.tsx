@@ -6,6 +6,8 @@ import styles from './styles.module.scss'
 interface Props {
     image: StaticImageData
     imageAlt: string
+    imageWidth?: number
+    imageHeight?: number
     imagePosition?: 'left' | 'right'
 }
 
@@ -13,6 +15,8 @@ export const Card: FC<PropsWithChildren<Props>> = ({
     image,
     imageAlt,
     children,
+    imageWidth,
+    imageHeight,
     imagePosition = 'left',
 }) => {
     return (
@@ -20,8 +24,8 @@ export const Card: FC<PropsWithChildren<Props>> = ({
             <Image
                 className={styles.image}
                 src={image.src}
-                width={256}
-                height={256}
+                width={imageWidth ?? image.width}
+                height={imageHeight ?? image.height}
                 alt={imageAlt}
             />
             <div className={styles.text}>{children}</div>
