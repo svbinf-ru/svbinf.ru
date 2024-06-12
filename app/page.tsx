@@ -1,8 +1,8 @@
 import Link from 'next/link'
 
-import anonForm from '@/assets/anon-form.png'
-import favicon from '@/assets/favicon.png'
-import raptor from '@/assets/raptor.png'
+import anonForm from '@/assets/anon-form.webp'
+import favicon from '@/assets/favicon.webp'
+import raptor from '@/assets/raptor.webp'
 import { Card } from '@/components/Card'
 import { Container } from '@/components/Container'
 import { HomepageNavigation } from '@/components/HomepageNavigation'
@@ -13,7 +13,12 @@ export default function Home() {
     return (
         <main>
             <Container>
-                <Card image={favicon} imageAlt="Логотип SVB369.ru">
+                <Card
+                    image={favicon}
+                    imageAlt="Логотип SVB369.ru"
+                    imageWidth={256}
+                    imageHeight={256}
+                >
                     <h1>Добро пожаловать!</h1>
                     <p>
                         Здесь вы можете узнать информацию об олимпиадах, скачать
@@ -32,6 +37,8 @@ export default function Home() {
                     draggable={false}
                 >
                     <Card
+                        imageWidth={256}
+                        imageHeight={256}
                         image={anonForm}
                         imageAlt="Ждун"
                         imagePosition="right"
@@ -46,7 +53,12 @@ export default function Home() {
                     href="/secrets"
                     draggable={false}
                 >
-                    <Card image={raptor} imageAlt="Раптор">
+                    <Card
+                        image={raptor}
+                        imageAlt="Раптор"
+                        imageWidth={256}
+                        imageHeight={256}
+                    >
                         <h2>Пасхалки</h2>
                         <p>Если это понятно, то это понятно.</p>
                         <p>Если это не понятно, то это не понятно.</p>
