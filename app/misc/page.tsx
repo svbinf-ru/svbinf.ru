@@ -13,7 +13,7 @@ export default function Miscellaneous() {
             <Breadcrumbs items={[{ href: '/misc', label: 'Разное' }]} />
             <Container>
                 <h1>Разное</h1>
-                <p>Подборка полезных материалов.</p>
+                <p>Подборка полезных ресурсов.</p>
                 <Grid>
                     <NavigationBanner
                         image={videos}
