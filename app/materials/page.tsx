@@ -1,5 +1,6 @@
 import images from '@/assets/materials/images.webp'
 import lessons from '@/assets/materials/lessons.webp'
+import python from '@/assets/materials/python.webp'
 import { Breadcrumbs } from '@/components/Breadcrumbs'
 import { Container } from '@/components/Container'
 import { Grid } from '@/components/Grid'
@@ -17,6 +18,11 @@ export default function Materials() {
                         image={lessons}
                         href="/materials/lessons"
                         title="Материалы с урока"
+                    />
+                    <NavigationBanner
+                        image={python}
+                        href="/materials/python"
+                        title="Python"
                     />
                     <NavigationBanner
                         image={images}
