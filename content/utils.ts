@@ -27,6 +27,12 @@ export interface MaterialsTable {
     full: string
 }
 
+export interface MaterialsCode {
+    code: string
+    caption: string
+    playground: string
+}
+
 export interface Misc {
     href: string
     thumbnail: StaticImageData
