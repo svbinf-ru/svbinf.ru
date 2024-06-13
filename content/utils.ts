@@ -14,6 +14,12 @@ export interface Education {
     description: string
 }
 
+export interface MaterialsImage {
+    src: StaticImageData
+    caption: string
+    full: string
+}
+
 export interface Misc {
     href: string
     thumbnail: StaticImageData
