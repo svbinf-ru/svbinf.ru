@@ -1,5 +1,6 @@
 import { LucideIcon } from 'lucide-react'
 import { StaticImageData } from 'next/image'
+import { JSX } from 'react'
 
 export interface Contact {
     href: string
@@ -16,6 +17,12 @@ export interface Education {
 
 export interface MaterialsImage {
     src: StaticImageData
+    caption: string
+    full: string
+}
+
+export interface MaterialsTable {
+    table: JSX.Element
     caption: string
     full: string
 }
