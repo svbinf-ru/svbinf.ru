@@ -26,3 +26,13 @@ main {
 a {
     color: unset;
 }
+
+table {
+    border: 1px solid $gray;
+    border-collapse: collapse;
+
+    td {
+        padding: 8px;
+        border: 1px solid $gray;
+    }
+}
