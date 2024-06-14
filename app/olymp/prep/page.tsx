@@ -4,7 +4,7 @@ import { Grid } from '@/components/Grid'
 import { SecondaryCard } from '@/components/SecondaryCard'
 import { prepResources } from '@/content/olymp/prep'
 
-export default function Olympiads() {
+export default function Prep() {
     return (
         <main>
             <Breadcrumbs
