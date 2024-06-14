@@ -11,7 +11,7 @@ interface Props {
     description: string
 }
 
-export const Miscellaneous: FC<Props> = ({
+export const SecondaryCard: FC<Props> = ({
     href,
     thumbnail,
     title,

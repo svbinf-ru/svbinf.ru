@@ -1,7 +1,7 @@
 import { Breadcrumbs } from '@/components/Breadcrumbs'
 import { Container } from '@/components/Container'
 import { Grid } from '@/components/Grid'
-import { Miscellaneous } from '@/components/Miscellaneous'
+import { SecondaryCard } from '@/components/SecondaryCard'
 import { programs } from '@/content/misc/programs'
 
 export default function Programs() {
@@ -17,7 +17,7 @@ export default function Programs() {
                 <h1>Программы</h1>
                 <Grid>
                     {programs.map((p) => (
-                        <Miscellaneous
+                        <SecondaryCard
                             key={p.title}
                             href={p.href}
                             thumbnail={p.thumbnail}

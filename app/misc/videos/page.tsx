@@ -1,7 +1,7 @@
 import { Breadcrumbs } from '@/components/Breadcrumbs'
 import { Container } from '@/components/Container'
 import { Grid } from '@/components/Grid'
-import { Miscellaneous } from '@/components/Miscellaneous'
+import { SecondaryCard } from '@/components/SecondaryCard'
 import { videos } from '@/content/misc/videos'
 
 export default function Videos() {
@@ -17,7 +17,7 @@ export default function Videos() {
                 <h1>Видео</h1>
                 <Grid>
                     {videos.map((v) => (
-                        <Miscellaneous
+                        <SecondaryCard
                             key={v.title}
                             href={v.href}
                             thumbnail={v.thumbnail}

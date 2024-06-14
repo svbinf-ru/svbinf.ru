@@ -1,7 +1,7 @@
 import { Breadcrumbs } from '@/components/Breadcrumbs'
 import { Container } from '@/components/Container'
 import { Grid } from '@/components/Grid'
-import { Miscellaneous } from '@/components/Miscellaneous'
+import { SecondaryCard } from '@/components/SecondaryCard'
 import { articles } from '@/content/misc/articles'
 
 export default function Articles() {
@@ -17,7 +17,7 @@ export default function Articles() {
                 <h1>Статьи</h1>
                 <Grid>
                     {articles.map((a) => (
-                        <Miscellaneous
+                        <SecondaryCard
                             key={a.title}
                             href={a.href}
                             thumbnail={a.thumbnail}
