@@ -39,3 +39,10 @@ export interface Misc {
     title: string
     description: string
 }
+
+export interface OlympPrep {
+    href: string
+    thumbnail: StaticImageData
+    title: string
+    description: string
+}
