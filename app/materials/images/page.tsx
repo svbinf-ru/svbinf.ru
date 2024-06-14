@@ -2,7 +2,7 @@ import { Breadcrumbs } from '@/components/Breadcrumbs'
 import { Container } from '@/components/Container'
 import { ImageWithLink } from '@/components/ImageWithLink'
 import { Waterfall } from '@/components/Waterfall'
-import { images } from '@/content/materials/images'
+import { avatars } from '@/content/materials/images'
 
 export default function Images() {
     return (
@@ -14,14 +14,19 @@ export default function Images() {
                 ]}
             />
             <Container>
-                <h1>Материалы - Изображения</h1>
+                <h1>Картинки</h1>
+                <h2>Аватары</h2>
+                <p>
+                    Важно сохранять анонимность, но можно добавить в это
+                    немножко стиля.
+                </p>
                 <Waterfall>
-                    {images.map((i) => (
+                    {avatars.map((a) => (
                         <ImageWithLink
-                            key={i.src.src}
-                            href={i.full}
-                            src={i.src}
-                            alt={i.caption}
+                            key={a.src.src}
+                            href={a.full}
+                            src={a.src}
+                            alt={a.caption}
                         />
                     ))}
                 </Waterfall>
