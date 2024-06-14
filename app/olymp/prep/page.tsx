@@ -15,6 +15,7 @@ export default function Olympiads() {
             />
             <Container>
                 <h1>Ресурсы для подготовки к олимпиадам</h1>
+                <p>Полезные сайты для подготовки к олимпиадам и техническим собеседованиям.</p>
                 <Grid>
                     {prepResources.map((r) => (
                         <SecondaryCard
