@@ -3,6 +3,7 @@ import Link from 'next/link'
 import { FC } from 'react'
 
 import { Container } from '@/components/Container'
+import { Grid } from '@/components/Grid'
 
 import styles from './styles.module.scss'
 
@@ -10,7 +11,7 @@ export const HomepageNavigation: FC = () => {
     return (
         <Container>
             <h2>Навигация</h2>
-            <div className={styles.navigation}>
+            <Grid>
                 <nav className={styles.group}>
                     <NotebookPen color="aquamarine" />
                     <Link href="/materials/lessons">Материалы с урока</Link>
@@ -33,7 +34,7 @@ export const HomepageNavigation: FC = () => {
                     <Link href="/about">О себе</Link>
                     <Link href="/achievements">Достижения</Link>
                 </nav>
-            </div>
+            </Grid>
         </Container>
     )
 }
