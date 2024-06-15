@@ -31,6 +31,10 @@ table {
     border: 1px solid $gray;
     border-collapse: collapse;
 
+    thead {
+        font-weight: bold;
+    }
+
     td {
         padding: 8px;
         border: 1px solid $gray;
