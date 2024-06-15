@@ -1,7 +1,13 @@
+import { Breadcrumbs } from '@/components/Breadcrumbs'
+import { Container } from '@/components/Container'
+
 export default function Secrets() {
     return (
         <main>
-            <h1>Пасхалки</h1>
+            <Breadcrumbs items={[{ href: '/secrets', label: 'Пасхалки' }]} />
+            <Container>
+                <h1>Перечень сыщиков лицея</h1>
+            </Container>
         </main>
     )
 }
