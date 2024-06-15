@@ -14,6 +14,8 @@ export const HomepageNavigation: FC = () => {
                 <nav className={styles.group}>
                     <NotebookPen color="aquamarine" />
                     <Link href="/materials/lessons">Материалы с урока</Link>
+                    <Link href="/materials/python">Python</Link>
+
                     <Link href="/schedule">Расписание</Link>
                     <Link href="/exams">Экзамены</Link>
                     <Link href="/olymp">Олимпиады</Link>

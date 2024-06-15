@@ -35,6 +35,14 @@ export const Header: FC = () => {
                         </Link>
                     </div>
                     <div className={styles.headerNavigationGroup}>
+                        <Link href="/materials/lessons" onClick={closeMenu}>
+                            Материалы с урока
+                        </Link>
+                        <Link href="/materials/python" onClick={closeMenu}>
+                            Python
+                        </Link>
+                    </div>
+                    <div className={styles.headerNavigationGroup}>
                         <Link href="/about" onClick={closeMenu}>
                             О себе
                         </Link>
