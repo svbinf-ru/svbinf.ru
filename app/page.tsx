@@ -40,7 +40,7 @@ export default function Home() {
                         imageWidth={256}
                         imageHeight={256}
                         image={anonForm}
-                        imageAlt="Ждун"
+                        imageAlt="Ждун дождался тебя и вручает тебе п9tеpkу!"
                         imagePosition="right"
                     >
                         <h2>Анонимная форма</h2>
