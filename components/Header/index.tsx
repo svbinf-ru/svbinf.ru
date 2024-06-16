@@ -18,7 +18,11 @@ export const Header: FC = () => {
                     <Link className={styles.title} href="/" onClick={closeMenu}>
                         Вадим Борисович
                     </Link>
-                    <button className={styles.button} onClick={toggleMenu}>
+                    <button
+                        className={styles.button}
+                        onClick={toggleMenu}
+                        aria-label="Закрыть меню навигации"
+                    >
                         <X size={32} />
                     </button>
                 </div>
@@ -69,7 +73,11 @@ export const Header: FC = () => {
                 <Link className={styles.title} href="/">
                     Вадим Борисович
                 </Link>
-                <button className={styles.button} onClick={toggleMenu}>
+                <button
+                    className={styles.button}
+                    onClick={toggleMenu}
+                    aria-label="Открыть меню навигации"
+                >
                     <Menu size={32} />
                 </button>
             </div>
