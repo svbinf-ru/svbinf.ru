@@ -18,6 +18,7 @@ export default function Olympiads() {
                     участие.
                 </p>
                 <Grid></Grid>
+                {/* TODO: add quote */}
             </Container>
         </main>
     )

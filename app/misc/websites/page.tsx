@@ -1,6 +1,7 @@
 import { Breadcrumbs } from '@/components/Breadcrumbs'
 import { Container } from '@/components/Container'
 import { Grid } from '@/components/Grid'
+import { QuotationSuspicious } from '@/components/QuotationSuspicious'
 import { SecondaryCard } from '@/components/SecondaryCard'
 import { websites } from '@/content/misc/websites'
 
@@ -26,6 +27,7 @@ export default function Videos() {
                         />
                     ))}
                 </Grid>
+                <QuotationSuspicious />
             </Container>
         </main>
     )

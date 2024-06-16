@@ -1,8 +1,10 @@
 import Link from 'next/link'
 
+import linusTorvalds from '@/assets/quotes/linus-torvalds.webp'
 import { BellTimetable } from '@/components/BellTimetable'
 import { Breadcrumbs } from '@/components/Breadcrumbs'
 import { Container } from '@/components/Container'
+import { Quotation } from '@/components/Quotation'
 
 export default function Schedule() {
     return (
@@ -30,6 +32,13 @@ export default function Schedule() {
                     расписание звонков.
                 </p>
                 <BellTimetable />
+                <Quotation
+                    quote="Интеллект — это способность избегать выполнения работы, но так, чтобы она при этом была сделана."
+                    author="Линус Торвальдс"
+                    picture={linusTorvalds}
+                    pictureWidth={256}
+                    pictureHeight={256}
+                />
             </Container>
         </main>
     )

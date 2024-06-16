@@ -1,6 +1,8 @@
+import blaisePascal from '@/assets/quotes/vladimir-lenin.png' // Тут пасхалка.
 import { Breadcrumbs } from '@/components/Breadcrumbs'
 import { Container } from '@/components/Container'
 import { Grid } from '@/components/Grid'
+import { Quotation } from '@/components/Quotation'
 import { SecondaryCard } from '@/components/SecondaryCard'
 import { articles } from '@/content/misc/articles'
 
@@ -26,6 +28,14 @@ export default function Articles() {
                         />
                     ))}
                 </Grid>
+                <Quotation
+                    quote="Главная проблема цитат в Интернете в том, что люди сразу верят в их подлинность."
+                    author="Владимир Ильич Ленин"
+                    picture={blaisePascal}
+                    pictureWidth={256}
+                    pictureHeight={256}
+                    unoptimized={true}
+                />
             </Container>
         </main>
     )

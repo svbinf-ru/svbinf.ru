@@ -1,6 +1,8 @@
+import peterWatts from '@/assets/quotes/peter-watts.webp'
 import { Breadcrumbs } from '@/components/Breadcrumbs'
 import { Container } from '@/components/Container'
 import { Grid } from '@/components/Grid'
+import { Quotation } from '@/components/Quotation'
 import { SecondaryCard } from '@/components/SecondaryCard'
 import { prepResources } from '@/content/olymp/prep'
 
@@ -30,6 +32,13 @@ export default function Prep() {
                         />
                     ))}
                 </Grid>
+                <Quotation
+                    quote="Мне очень хотелось поговорить с ней. Я просто не мог найти подходящий алгоритм."
+                    author="Питер Уоттс"
+                    picture={peterWatts}
+                    pictureWidth={256}
+                    pictureHeight={256}
+                />
             </Container>
         </main>
     )

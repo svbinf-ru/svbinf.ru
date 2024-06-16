@@ -3,9 +3,11 @@ import '@/public/prism/prism.css'
 import Link from 'next/link'
 import Script from 'next/script'
 
+import barbaraChaseRiboud from '@/assets/quotes/barbara-chase-riboud.webp'
 import { Box } from '@/components/Box'
 import { Breadcrumbs } from '@/components/Breadcrumbs'
 import { Container } from '@/components/Container'
+import { Quotation } from '@/components/Quotation'
 import { codeExamples } from '@/content/materials/python'
 
 export default function Python() {
@@ -36,6 +38,13 @@ export default function Python() {
                         </Link>
                     </Box>
                 ))}
+                <Quotation
+                    quote="Питон носит свое одиночество в себе, словно съел глину."
+                    author="Барбара Чейз-Рибу"
+                    picture={barbaraChaseRiboud}
+                    pictureWidth={256}
+                    pictureHeight={256}
+                />
             </Container>
             <Script src="/prism/prism.js" />
         </main>

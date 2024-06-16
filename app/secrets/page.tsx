@@ -7,6 +7,7 @@ export default function Secrets() {
             <Breadcrumbs items={[{ href: '/secrets', label: 'Пасхалки' }]} />
             <Container>
                 <h1>Перечень сыщиков лицея</h1>
+                {/* TODO: add quote */}
             </Container>
         </main>
     )

@@ -1,6 +1,8 @@
+import benjaminFranklin from '@/assets/quotes/benjamin-franklin.webp'
 import { Breadcrumbs } from '@/components/Breadcrumbs'
 import { Container } from '@/components/Container'
 import { ImageWithLink } from '@/components/ImageWithLink'
+import { Quotation } from '@/components/Quotation'
 import { Waterfall } from '@/components/Waterfall'
 import { avatars } from '@/content/materials/images'
 
@@ -30,6 +32,13 @@ export default function Images() {
                         />
                     ))}
                 </Waterfall>
+                <Quotation
+                    quote="Скажи мне — и я забуду, учи меня — и я могу запомнить, вовлекай меня — и я научусь."
+                    author="Бенджамин Франклин"
+                    picture={benjaminFranklin}
+                    pictureWidth={256}
+                    pictureHeight={256}
+                />
             </Container>
         </main>
     )
