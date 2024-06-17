@@ -13,7 +13,7 @@ export const HomepageNavigation: FC = () => {
             <h2>Навигация</h2>
             <Grid>
                 <nav className={styles.group}>
-                    <NotebookPen color="aquamarine" />
+                    <NotebookPen className={styles.icon} color="aquamarine" />
                     <Link href="/materials/lessons">Материалы с урока</Link>
                     <Link href="/materials/python">Python</Link>
                     <Link href="/schedule">Расписание</Link>
@@ -21,7 +21,7 @@ export const HomepageNavigation: FC = () => {
                     <Link href="/olymp">Олимпиады</Link>
                 </nav>
                 <nav className={styles.group}>
-                    <Star color="yellow" />
+                    <Star className={styles.icon} color="yellow" />
                     <Link href="/misc/articles">Статьи</Link>
                     <Link href="/misc/programs">Программы</Link>
                     <Link href="/misc/videos">Видео</Link>
@@ -29,7 +29,7 @@ export const HomepageNavigation: FC = () => {
                     <Link href="/materials/images">Картинки</Link>
                 </nav>
                 <nav className={styles.group}>
-                    <Users color="orchid" />
+                    <Users className={styles.icon} color="orchid" />
                     <Link href="/about">О себе</Link>
                     <Link href="/achievements">Достижения</Link>
                 </nav>

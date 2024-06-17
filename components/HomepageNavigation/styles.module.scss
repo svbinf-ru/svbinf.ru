@@ -1,6 +1,10 @@
+@import 'extends';
 @import 'variables';
 
 .group {
+    @extend %blurred-background;
+    padding: 24px;
+    border-radius: 16px;
     display: flex;
     flex-direction: column;
     gap: 16px;
@@ -15,4 +19,8 @@
     a:hover {
         color: $foreground-secondary;
     }
+}
+
+.icon {
+    margin-bottom: 16px;
 }
