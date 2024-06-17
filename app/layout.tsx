@@ -11,6 +11,8 @@ import { Header } from '@/components/Header'
 import styles from './layout.module.scss'
 
 export const metadata: Metadata = {
+    // FIXME: Change to production URL.
+    metadataBase: new URL('https://13211ed0-8be9-499c-8cbe-0cf57f483777.pinkphantasm.ru'),
     title: {
         template: '%s | Вадим Борисович',
         default: 'Вадим Борисович',
