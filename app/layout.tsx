@@ -29,6 +29,9 @@ export const metadata: Metadata = {
         'Компьютеры',
     ],
     publisher: 'Cloudflare',
+    twitter: {
+        card: 'summary_large_image',
+    }
 }
 
 const raleway = Raleway({ subsets: ['cyrillic'] })
