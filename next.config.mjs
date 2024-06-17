@@ -18,6 +18,10 @@ class NextConfig {
 }
 
 const nextConfig = new NextConfig({
+    images: {
+        unoptimized: true,
+    },
+    output: 'export',
     pageExtensions: ['js', 'jsx', 'ts', 'tsx', 'md', 'mdx'],
     sassOptions: {
         includePaths: ['styles'],
