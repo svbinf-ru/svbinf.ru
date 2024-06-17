@@ -1,14 +1,30 @@
-import withPWAFactory from 'next-pwa'
+// @ts-check
 
-const withPWA = withPWAFactory({
-    dest: 'public',
-})
+import withMDX from '@next/mdx'
+import withPWA from 'next-pwa'
 
-/** @type {import('next').NextConfig} */
-const nextConfig = withPWA({
+class NextConfig {
+    constructor(config) {
+        this.config = config
+    }
+
+    apply(withFunc) {
+        this.config = withFunc(this.config)
+    }
+
+    configuration() {
+        return this.config
+    }
+}
+
+const nextConfig = new NextConfig({
+    pageExtensions: ['js', 'jsx', 'ts', 'tsx', 'md', 'mdx'],
     sassOptions: {
         includePaths: ['styles'],
     },
 })
 
-export default nextConfig
+nextConfig.apply(withPWA({ dest: 'public' }))
+nextConfig.apply(withMDX())
+
+export default nextConfig.configuration()
