@@ -1,8 +1,18 @@
+import { Metadata } from 'next'
+
 import profile from '@/assets/profile.webp'
 import { Card } from '@/components/Card'
 import { ContactLink } from '@/components/ContactLink'
 import { Container } from '@/components/Container'
 import { contacts } from '@/content/contacts/contacts'
+
+export const metadata: Metadata = {
+    title: 'Контакты',
+    robots: {
+        index: false,
+        follow: false,
+    },
+}
 
 export default function Contacts() {
     return (

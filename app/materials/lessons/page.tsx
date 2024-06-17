@@ -1,3 +1,4 @@
+import { Metadata } from 'next'
 import Image from 'next/image'
 import Link from 'next/link'
 
@@ -8,6 +9,10 @@ import { Container } from '@/components/Container'
 import { Grid } from '@/components/Grid'
 import { Quotation } from '@/components/Quotation'
 import { images, tables } from '@/content/materials/lessons'
+
+export const metadata: Metadata = {
+    title: 'Материалы с урока',
+}
 
 export default function Lessons() {
     return (

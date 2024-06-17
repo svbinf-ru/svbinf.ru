@@ -1,3 +1,5 @@
+import { Metadata } from 'next'
+
 import images from '@/assets/materials/images.webp'
 import lessons from '@/assets/materials/lessons.webp'
 import python from '@/assets/materials/python.webp'
@@ -5,6 +7,10 @@ import { Breadcrumbs } from '@/components/Breadcrumbs'
 import { Container } from '@/components/Container'
 import { Grid } from '@/components/Grid'
 import { NavigationBanner } from '@/components/NavigationBanner'
+
+export const metadata: Metadata = {
+    title: 'Материалы',
+}
 
 export default function Materials() {
     return (

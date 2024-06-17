@@ -1,3 +1,5 @@
+import { Metadata } from 'next'
+
 import peterWatts from '@/assets/quotes/peter-watts.webp'
 import { Breadcrumbs } from '@/components/Breadcrumbs'
 import { Container } from '@/components/Container'
@@ -5,6 +7,10 @@ import { Grid } from '@/components/Grid'
 import { Quotation } from '@/components/Quotation'
 import { SecondaryCard } from '@/components/SecondaryCard'
 import { prepResources } from '@/content/olymp/prep'
+
+export const metadata: Metadata = {
+    title: 'Ресурсы для подготовки к олимпиадам',
+}
 
 export default function Prep() {
     return (

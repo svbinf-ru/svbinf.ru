@@ -1,3 +1,5 @@
+import { Metadata } from 'next'
+
 import marisaKirisame from '@/assets/quotes/marisa-kirisame.webp'
 import { Breadcrumbs } from '@/components/Breadcrumbs'
 import { Container } from '@/components/Container'
@@ -5,6 +7,10 @@ import { Grid } from '@/components/Grid'
 import { Quotation } from '@/components/Quotation'
 import { SecondaryCard } from '@/components/SecondaryCard'
 import { programs } from '@/content/misc/programs'
+
+export const metadata: Metadata = {
+    title: 'Программы',
+}
 
 export default function Programs() {
     return (

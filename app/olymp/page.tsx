@@ -1,9 +1,15 @@
+import { Metadata } from 'next'
+
 import list from '@/assets/olymp/list.webp'
 import prep from '@/assets/olymp/prep.webp'
 import { Breadcrumbs } from '@/components/Breadcrumbs'
 import { Container } from '@/components/Container'
 import { Grid } from '@/components/Grid'
 import { NavigationBanner } from '@/components/NavigationBanner'
+
+export const metadata: Metadata = {
+    title: 'Олимпиады',
+}
 
 export default function Olympiads() {
     return (

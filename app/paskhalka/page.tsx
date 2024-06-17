@@ -1,8 +1,14 @@
+import { Metadata } from 'next'
+
 import cryptography from '@/assets/cryptography.webp'
 import { Card } from '@/components/Card'
 import { Container } from '@/components/Container'
 
 import styles from './styles.module.css'
+
+export const metadata: Metadata = {
+    title: 'Дарующая оценку пять Криптография',
+}
 
 export default function Paskhalka() {
     return (

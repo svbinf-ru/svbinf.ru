@@ -1,5 +1,6 @@
 import '@/public/prism/prism.css'
 
+import { Metadata } from 'next'
 import Link from 'next/link'
 import Script from 'next/script'
 
@@ -9,6 +10,10 @@ import { Breadcrumbs } from '@/components/Breadcrumbs'
 import { Container } from '@/components/Container'
 import { Quotation } from '@/components/Quotation'
 import { codeExamples } from '@/content/materials/python'
+
+export const metadata: Metadata = {
+    title: 'Python',
+}
 
 export default function Python() {
     return (

@@ -1,5 +1,6 @@
 import '@/styles/_globals.scss'
 
+import { Metadata } from 'next'
 import { Raleway } from 'next/font/google'
 import { CSSProperties } from 'react'
 
@@ -8,6 +9,27 @@ import { Footer } from '@/components/Footer'
 import { Header } from '@/components/Header'
 
 import styles from './layout.module.scss'
+
+export const metadata: Metadata = {
+    title: {
+        template: '%s | Вадим Борисович',
+        default: 'Вадим Борисович',
+    },
+    description:
+        'Сайт учителя информатики Вадима Борисовича Скотникова. Здесь вы можете узнать информацию об олимпиадах, скачать полезные материалы, найти ссылки на интересные сайты, программы и статьи. А также можете найти секретные послания.',
+    applicationName: 'Вадим Борисович',
+    creator: 'Иван Шелепугин <https://shelepugin.ru>',
+    keywords: [
+        'Education',
+        'Computer Science',
+        'IT',
+        'Преподавание',
+        'Информатика',
+        'ИКТ',
+        'Компьютеры',
+    ],
+    publisher: 'Cloudflare',
+}
 
 const raleway = Raleway({ subsets: ['cyrillic'] })
 

@@ -1,5 +1,11 @@
+import { Metadata } from 'next'
+
 import { Breadcrumbs } from '@/components/Breadcrumbs'
 import { Container } from '@/components/Container'
+
+export const metadata: Metadata = {
+    title: 'Перечень сыщиков лицея',
+}
 
 export default function Secrets() {
     return (

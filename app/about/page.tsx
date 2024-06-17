@@ -1,3 +1,4 @@
+import { Metadata } from 'next'
 import Link from 'next/link'
 
 import profile from '@/assets/profile.webp'
@@ -5,6 +6,10 @@ import { Breadcrumbs } from '@/components/Breadcrumbs'
 import { Card } from '@/components/Card'
 import { Container } from '@/components/Container'
 import { education } from '@/content/about/education'
+
+export const metadata: Metadata = {
+    title: 'О себе',
+}
 
 export default function About() {
     return (

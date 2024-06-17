@@ -1,7 +1,13 @@
+import { Metadata } from 'next'
+
 import philipFry from '@/assets/quotes/philip-fry.webp'
 import { Breadcrumbs } from '@/components/Breadcrumbs'
 import { Container } from '@/components/Container'
 import { Quotation } from '@/components/Quotation'
+
+export const metadata: Metadata = {
+    title: 'Достижения',
+}
 
 export default function Achievements() {
     return (

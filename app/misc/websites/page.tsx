@@ -1,9 +1,15 @@
+import { Metadata } from 'next'
+
 import { Breadcrumbs } from '@/components/Breadcrumbs'
 import { Container } from '@/components/Container'
 import { Grid } from '@/components/Grid'
 import { QuotationSuspicious } from '@/components/QuotationSuspicious'
 import { SecondaryCard } from '@/components/SecondaryCard'
 import { websites } from '@/content/misc/websites'
+
+export const metadata: Metadata = {
+    title: 'Сайты',
+}
 
 export default function Videos() {
     return (

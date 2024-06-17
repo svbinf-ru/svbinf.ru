@@ -1,3 +1,5 @@
+import { Metadata } from 'next'
+
 import maximGorky from '@/assets/quotes/maxim-gorky.webp'
 import { Breadcrumbs } from '@/components/Breadcrumbs'
 import { Container } from '@/components/Container'
@@ -5,6 +7,10 @@ import { Grid } from '@/components/Grid'
 import { Quotation } from '@/components/Quotation'
 import { SecondaryCard } from '@/components/SecondaryCard'
 import { videos } from '@/content/misc/videos'
+
+export const metadata: Metadata = {
+    title: 'Видео',
+}
 
 export default function Videos() {
     return (

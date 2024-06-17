@@ -1,6 +1,12 @@
+import { Metadata } from 'next'
+
 import { Breadcrumbs } from '@/components/Breadcrumbs'
 import { Container } from '@/components/Container'
 import { Grid } from '@/components/Grid'
+
+export const metadata: Metadata = {
+    title: 'Список олимпиад и конкурсов',
+}
 
 export default function Olympiads() {
     return (

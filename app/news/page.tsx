@@ -1,6 +1,12 @@
+import { Metadata } from 'next'
+
 import { NewsEntry } from '@/components/NewsEntry'
 
 import { getRecentNews } from './utils'
+
+export const metadata: Metadata = {
+    title: 'Новости',
+}
 
 export default function News() {
     return (

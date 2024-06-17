@@ -1,3 +1,5 @@
+import { Metadata } from 'next'
+
 import blaisePascal from '@/assets/quotes/vladimir-lenin.png' // Тут пасхалка.
 import { Breadcrumbs } from '@/components/Breadcrumbs'
 import { Container } from '@/components/Container'
@@ -5,6 +7,10 @@ import { Grid } from '@/components/Grid'
 import { Quotation } from '@/components/Quotation'
 import { SecondaryCard } from '@/components/SecondaryCard'
 import { articles } from '@/content/misc/articles'
+
+export const metadata: Metadata = {
+    title: 'Статьи',
+}
 
 export default function Articles() {
     return (

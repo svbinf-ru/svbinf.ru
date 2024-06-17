@@ -1,3 +1,4 @@
+import { Metadata } from 'next'
 import Link from 'next/link'
 
 import linusTorvalds from '@/assets/quotes/linus-torvalds.webp'
@@ -5,6 +6,10 @@ import { BellTimetable } from '@/components/BellTimetable'
 import { Breadcrumbs } from '@/components/Breadcrumbs'
 import { Container } from '@/components/Container'
 import { Quotation } from '@/components/Quotation'
+
+export const metadata: Metadata = {
+    title: 'Расписание и звонки',
+}
 
 export default function Schedule() {
     return (

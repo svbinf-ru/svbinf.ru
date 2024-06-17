@@ -1,3 +1,5 @@
+import { Metadata } from 'next'
+
 import articles from '@/assets/misc/articles.webp'
 import programs from '@/assets/misc/programs.webp'
 import videos from '@/assets/misc/videos.webp'
@@ -6,6 +8,10 @@ import { Breadcrumbs } from '@/components/Breadcrumbs'
 import { Container } from '@/components/Container'
 import { Grid } from '@/components/Grid'
 import { NavigationBanner } from '@/components/NavigationBanner'
+
+export const metadata: Metadata = {
+    title: 'Разное',
+}
 
 export default function Miscellaneous() {
     return (

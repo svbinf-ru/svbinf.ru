@@ -1,3 +1,5 @@
+import { Metadata } from 'next'
+
 import benjaminFranklin from '@/assets/quotes/benjamin-franklin.webp'
 import { Breadcrumbs } from '@/components/Breadcrumbs'
 import { Container } from '@/components/Container'
@@ -5,6 +7,10 @@ import { ImageWithLink } from '@/components/ImageWithLink'
 import { Quotation } from '@/components/Quotation'
 import { Waterfall } from '@/components/Waterfall'
 import { avatars } from '@/content/materials/images'
+
+export const metadata: Metadata = {
+    title: 'Картинки',
+}
 
 export default function Images() {
     return (
