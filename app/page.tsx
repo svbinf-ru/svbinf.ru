@@ -1,10 +1,10 @@
 import Link from 'next/link'
 
 import anonForm from '@/assets/anon-form.webp'
-import favicon from '@/assets/favicon.webp'
 import raptor from '@/assets/raptor.webp'
 import { Card } from '@/components/Card'
 import { Container } from '@/components/Container'
+import { ContainerBorders } from '@/components/ContainerBorders'
 import { HomepageNavigation } from '@/components/HomepageNavigation'
 import { NewsFeed } from '@/components/NewsFeed'
 
@@ -14,12 +14,7 @@ export default function Home() {
     return (
         <main>
             <Container>
-                <Card
-                    image={favicon}
-                    imageAlt="Логотип SVB369.ru"
-                    imageWidth={256}
-                    imageHeight={256}
-                >
+                <ContainerBorders>
                     <h1>Добро пожаловать!</h1>
                     <p>
                         Здесь вы можете узнать информацию об олимпиадах, скачать
@@ -27,7 +22,7 @@ export default function Home() {
                         программы и статьи. А также можете найти секретные
                         послания.
                     </p>
-                </Card>
+                </ContainerBorders>
             </Container>
             <NewsFeed />
             <HomepageNavigation />
@@ -61,7 +56,6 @@ export default function Home() {
                         imageWidth={256}
                         imageHeight={256}
                     >
-                        <h2>Пасхалки</h2>
                         <p>Если это понятно, то это понятно.</p>
                         <p>Если это не понятно, то это не понятно.</p>
                     </Card>
