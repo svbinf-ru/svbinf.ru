@@ -3,9 +3,7 @@ import Link from 'next/link'
 import profile from '@/assets/profile.webp'
 import { Breadcrumbs } from '@/components/Breadcrumbs'
 import { Card } from '@/components/Card'
-import { ContactLink } from '@/components/ContactLink'
 import { Container } from '@/components/Container'
-import { contacts } from '@/content/about/contacts'
 import { education } from '@/content/about/education'
 
 export default function About() {
@@ -43,16 +41,6 @@ export default function About() {
                         </Link>{' '}
                         с 26 января 2023.
                     </p>
-                    <Container>
-                        {contacts.map((c) => (
-                            <ContactLink
-                                key={c.href}
-                                href={c.href}
-                                icon={c.icon}
-                                text={c.text}
-                            />
-                        ))}
-                    </Container>
                 </Card>
                 {education.map((e, i) => (
                     <Card
