@@ -9,7 +9,6 @@ interface Props {
     picture: StaticImageData
     pictureWidth?: number
     pictureHeight?: number
-    unoptimized?: boolean
 }
 
 export const Quotation: FC<Props> = ({
@@ -18,7 +17,6 @@ export const Quotation: FC<Props> = ({
     picture,
     pictureWidth,
     pictureHeight,
-    unoptimized = false,
 }) => {
     return (
         <blockquote className={styles.quotation}>
@@ -28,7 +26,6 @@ export const Quotation: FC<Props> = ({
                 alt={author}
                 width={pictureWidth ?? picture.width}
                 height={pictureHeight ?? picture.height}
-                unoptimized={unoptimized}
             />
             <div className={styles.text}>
                 <p>{quote}</p>

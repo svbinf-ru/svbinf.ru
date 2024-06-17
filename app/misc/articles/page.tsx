@@ -34,7 +34,6 @@ export default function Articles() {
                     picture={blaisePascal}
                     pictureWidth={256}
                     pictureHeight={256}
-                    unoptimized={true}
                 />
             </Container>
         </main>
