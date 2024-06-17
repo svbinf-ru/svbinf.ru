@@ -1,4 +1,5 @@
 import { Dirent, readdirSync } from 'fs'
+import { join } from 'path'
 
 interface NewsEntry {
     title: string
@@ -12,19 +13,19 @@ interface NewsEntry {
 const titleMap = new Map([['2024-06-17_the-first-post', 'Первый пост']])
 
 const direntToNews = (dirent: Dirent): NewsEntry => {
-    const [pubDate, title] = dirent.name.split('_')
-    const capitilizedTitle = title.charAt(0).toUpperCase() + title.slice(1)
-    const fallbackTitle = capitilizedTitle.split('-').join(' ')
+    const pubDate = dirent.name.split('_')[0]
 
     return {
-        title: titleMap.get(dirent.name) ?? fallbackTitle,
+        title: titleMap.get(dirent.name) ?? `Новости от ${pubDate}`,
         href: `/news/${dirent.name}`,
         pubDate,
     }
 }
 
 export const getRecentNews = (): NewsEntry[] => {
-    return readdirSync(__dirname, { withFileTypes: true })
+    const newsDir = join(process.cwd(), 'app', 'news')
+
+    return readdirSync(newsDir, { withFileTypes: true })
         .filter((dirent) => dirent.isDirectory())
         .slice(0, 15)
         .map(direntToNews)
