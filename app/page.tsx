@@ -6,6 +6,7 @@ import raptor from '@/assets/raptor.webp'
 import { Card } from '@/components/Card'
 import { Container } from '@/components/Container'
 import { HomepageNavigation } from '@/components/HomepageNavigation'
+import { NewsFeed } from '@/components/NewsFeed'
 
 import styles from './page.module.scss'
 
@@ -28,6 +29,7 @@ export default function Home() {
                     </p>
                 </Card>
             </Container>
+            <NewsFeed />
             <HomepageNavigation />
             <Container>
                 <Link
