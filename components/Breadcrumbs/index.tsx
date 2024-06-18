@@ -24,7 +24,11 @@ export const Breadcrumbs: FC<Props> = ({ items }) => {
             itemType="https://schema.org/BreadcrumbList"
         >
             <div className={styles.container} data-hoverable={true}>
-                <Link className={styles.link} href="/">
+                <Link
+                    className={styles.link}
+                    href="/"
+                    aria-label="Главная страница"
+                >
                     <Home size={20} />
                 </Link>
             </div>
