@@ -36,6 +36,7 @@ export const metadata: Metadata = {
     twitter: {
         card: 'summary_large_image',
     },
+    manifest: '/manifest.json',
 }
 
 const raleway = Raleway({ subsets: ['cyrillic'] })
