@@ -18,20 +18,38 @@ const nunito = Nunito({ subsets: ['cyrillic'] })
 
 export const Breadcrumbs: FC<Props> = ({ items }) => {
     return (
-        <nav className={`${nunito.className} ${styles.breadcrumbs}`}>
+        <nav
+            className={`${nunito.className} ${styles.breadcrumbs}`}
+            itemScope
+            itemType="https://schema.org/BreadcrumbList"
+        >
             <div className={styles.container} data-hoverable={true}>
                 <Link className={styles.link} href="/">
                     <Home size={20} />
                 </Link>
             </div>
-            {items.map((item) => (
-                <div className={styles.item} key={item.href}>
+            {items.map((item, index) => (
+                <div
+                    className={styles.item}
+                    itemScope
+                    itemProp="itemListElement"
+                    itemType="https://schema.org/ListItem"
+                    key={item.href}
+                >
                     <div className={styles.container}>
                         <ChevronRight className={styles.separator} size={20} />
                     </div>
                     <div className={styles.container} data-hoverable={true}>
-                        <Link className={styles.link} href={item.href}>
-                            {item.label}
+                        <Link
+                            itemProp="item"
+                            className={styles.link}
+                            href={item.href}
+                        >
+                            <span itemProp="name">{item.label}</span>
+                            <meta
+                                itemProp="position"
+                                content={`${index + 1}`}
+                            />
                         </Link>
                     </div>
                 </div>
