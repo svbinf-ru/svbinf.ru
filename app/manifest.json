@@ -1,0 +1,39 @@
+{
+    "name": "Вадим Борисович",
+    "short_name": "Вадим Борисович",
+    "description": "Сайт учителя информатики Вадима Борисовича Скотникова. Здесь вы можете узнать информацию об олимпиадах, скачать полезные материалы, найти ссылки на интересные сайты, программы и статьи. А также можете найти секретные послания.",
+    "background_color": "#131313",
+    "theme_color": "#131313",
+    "display": "standalone",
+    "scope": "/",
+    "start_url": "/",
+    "icons": [
+        {
+            "src": "/icons/icon-64.png",
+            "type": "image/png",
+            "sizes": "64x64"
+        },
+        {
+            "src": "/icons/icon-96.png",
+            "type": "image/png",
+            "sizes": "96x96"
+        },
+        {
+            "src": "/icons/icon-192.png",
+            "type": "image/png",
+            "sizes": "192x192"
+        },
+        {
+            "src": "/icons/icon-512.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        }
+    ],
+    "screenshots": [
+        {
+            "src": "/opengraph-image.png",
+            "type": "image/png",
+            "sizes": "1200x650"
+        }
+    ]
+}
