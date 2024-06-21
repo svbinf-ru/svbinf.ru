@@ -1,9 +1,11 @@
 import { Metadata } from 'next'
 
-import philipFry from '@/assets/quotes/philip-fry.webp'
+import students from '@/assets/achievements/students.webp'
+import teacher from '@/assets/achievements/teacher.webp'
 import { Breadcrumbs } from '@/components/Breadcrumbs'
 import { Container } from '@/components/Container'
-import { Quotation } from '@/components/Quotation'
+import { Grid } from '@/components/Grid'
+import { NavigationBanner } from '@/components/NavigationBanner'
 
 export const metadata: Metadata = {
     title: 'Достижения',
@@ -17,13 +19,18 @@ export default function Achievements() {
             />
             <Container>
                 <h1>Достижения</h1>
-                <Quotation
-                    quote="Нет ничего невозможного, если ты можешь это вообразить. Это и означает быть учёным."
-                    author="Филипп Дж. Фрай"
-                    picture={philipFry}
-                    pictureWidth={256}
-                    pictureHeight={256}
-                />
+                <Grid>
+                    <NavigationBanner
+                        image={students}
+                        href="/achievements/students"
+                        title="Ученики"
+                    />
+                    <NavigationBanner
+                        image={teacher}
+                        href="/achievements/teacher"
+                        title="Вадим Борисович"
+                    />
+                </Grid>
             </Container>
         </main>
     )
