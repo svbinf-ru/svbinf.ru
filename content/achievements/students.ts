@@ -379,7 +379,7 @@ export const students: Achievement[] = [
     },
     {
         thumbnail: studentAchievement18,
-        full: '/img/achievements/students/2021 Д МР Х.jpg',
+        full: '/img/achievements/students/2021 Д МР П.jpg',
         year: 2021,
         type: 'diploma',
     },
