@@ -8,17 +8,17 @@ export const images: MaterialsImage[] = [
     {
         src: euler,
         caption: 'Круги Эйлера',
-        full: '/static/img/lessons/euler.png',
+        full: '/img/lessons/euler.png',
     },
     {
         src: graph,
         caption: 'Граф',
-        full: '/static/img/lessons/graph.png',
+        full: '/img/lessons/graph.png',
     },
     {
         src: units,
         caption: 'Перевод единиц измерения',
-        full: '/static/img/lessons/units.png',
+        full: '/img/lessons/units.png',
     },
 ]
 

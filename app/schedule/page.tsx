@@ -20,7 +20,7 @@ export default function Schedule() {
                 <p>
                     Скачать{' '}
                     <Link
-                        href="/static/img/schedule/bell-timetable-vertical.png"
+                        href="/img/schedule/bell-timetable-vertical.png"
                         target="_blank"
                         download="расписание вертикальное.png"
                     >
@@ -28,7 +28,7 @@ export default function Schedule() {
                     </Link>{' '}
                     или{' '}
                     <Link
-                        href="/static/img/schedule/bell-timetable-horizontal.png"
+                        href="/img/schedule/bell-timetable-horizontal.png"
                         target="_blank"
                         download="расписание горизонтальное.png"
                     >
