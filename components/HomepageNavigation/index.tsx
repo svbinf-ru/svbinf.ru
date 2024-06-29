@@ -32,6 +32,7 @@ export const HomepageNavigation: FC = () => {
                     <Users className={styles.icon} color="orchid" />
                     <Link href="/about">О себе</Link>
                     <Link href="/achievements">Достижения</Link>
+                    <Link href="/students">Ученики</Link>
                 </nav>
             </Grid>
         </Container>
