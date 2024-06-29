@@ -56,13 +56,6 @@ export interface Misc {
     description: string
 }
 
-export interface OlympPrep {
-    href: string
-    thumbnail: StaticImageData
-    title: string
-    description: string
-}
-
 export interface Option {
     value: string
     label: string

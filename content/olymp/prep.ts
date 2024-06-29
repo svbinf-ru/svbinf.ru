@@ -4,7 +4,7 @@ import informatics from '@/assets/olymp/prep/informatics.webp'
 import leetcode from '@/assets/olymp/prep/leetcode.webp'
 import timus from '@/assets/olymp/prep/timus.webp'
 
-import { OlympPrep } from '@/content/utils'
+import { OlympPrep } from '@/content/olymp'
 
 export const prepResources: OlympPrep[] = [
     {
