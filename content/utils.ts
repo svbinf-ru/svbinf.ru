@@ -22,6 +22,15 @@ export interface Education {
     description: string
 }
 
+export interface ExamResult {
+    title: string
+    max: number
+    students?: number
+    average?: number
+    best?: number
+    info?: string[]
+}
+
 export interface MaterialsImage {
     src: StaticImageData
     caption: string
