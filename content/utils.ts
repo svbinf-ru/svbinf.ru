@@ -121,4 +121,11 @@ interface Option {
     label: string
 }
 
+export interface Student {
+    name: string
+    description: string
+    url: string
+    picture: StaticImageData
+}
+
 type AchievementType = 'certificate' | 'commendation' | 'diploma' | 'gratitude'
