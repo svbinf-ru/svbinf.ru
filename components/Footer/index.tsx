@@ -15,7 +15,7 @@ const catClick = () => {
 
 export const Footer: FC = () => {
     return (
-        <footer className={styles.footer}>
+        <footer id="footer" className={styles.footer}>
             <button className={styles.catButton} onClick={catClick}>
                 <Image
                     src={cat.src}

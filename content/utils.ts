@@ -121,6 +121,13 @@ interface Option {
     label: string
 }
 
+export interface Secret {
+    title: string
+    description: string
+    href: string
+    picture: StaticImageData
+}
+
 export interface Student {
     name: string
     description: string
