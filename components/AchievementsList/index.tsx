@@ -5,11 +5,8 @@ import { FC, FormEvent } from 'react'
 
 import { ImageWithLink } from '@/components/ImageWithLink'
 import { Waterfall } from '@/components/Waterfall'
-import {
-    Achievement,
-    achievementTypes,
-    achievementYears,
-} from '@/content/utils'
+import { achievementTypes, achievementYears } from '@/content/achievements'
+import { Achievement } from '@/content/utils'
 
 import styles from './styles.module.scss'
 
