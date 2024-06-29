@@ -28,40 +28,36 @@ export const Header: FC = () => {
                 </div>
                 <nav className={styles.headerNavigation}>
                     <div className={styles.headerNavigationGroup}>
-                        <Link href="/exams" onClick={closeMenu}>
-                            Экзамены
+                        <Link href="/materials" onClick={closeMenu}>
+                            Материалы
                         </Link>
                         <Link href="/olymp" onClick={closeMenu}>
                             Олимпиады
                         </Link>
+                        <Link href="/exams" onClick={closeMenu}>
+                            Экзамены
+                        </Link>
+                    </div>
+                    <div className={styles.headerNavigationGroup}>
                         <Link href="/schedule" onClick={closeMenu}>
                             Расписание
                         </Link>
-                    </div>
-                    <div className={styles.headerNavigationGroup}>
-                        <Link href="/materials/lessons" onClick={closeMenu}>
-                            Материалы с урока
-                        </Link>
-                        <Link href="/materials/python" onClick={closeMenu}>
-                            Python
-                        </Link>
-                    </div>
-                    <div className={styles.headerNavigationGroup}>
-                        <Link href="/about" onClick={closeMenu}>
-                            О себе
-                        </Link>
-                        <Link href="/achievements" onClick={closeMenu}>
-                            Достижения
-                        </Link>
-                    </div>
-                    <div className={styles.headerNavigationGroup}>
                         <Link href="/misc" onClick={closeMenu}>
                             Разное
                         </Link>
-                        <Link href="/secrets" onClick={closeMenu}>
-                            Пасхалки
+                    </div>
+                    <div className={styles.headerNavigationGroup}>
+                        <Link href="/achievements" onClick={closeMenu}>
+                            Достижения
+                        </Link>
+                        <Link href="/students" onClick={closeMenu}>
+                            Ученики
+                        </Link>
+                        <Link href="/about" onClick={closeMenu}>
+                            О себе
                         </Link>
                     </div>
+                    <div className={styles.headerNavigationGroup}></div>
                 </nav>
             </header>
         )

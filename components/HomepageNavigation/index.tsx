@@ -13,26 +13,30 @@ export const HomepageNavigation: FC = () => {
             <h2>Навигация</h2>
             <Grid>
                 <nav className={styles.group}>
-                    <NotebookPen className={styles.icon} color="aquamarine" />
+                    <NotebookPen className={styles.icon} />
+                    <Link href="/olymp/list">Подготовка к олимпиадам</Link>
+                    <Link href="/olymp/list">Олимпиады и конкурсы</Link>
                     <Link href="/materials/lessons">Материалы с урока</Link>
+                    <Link href="/materials/images">Картинки</Link>
                     <Link href="/materials/python">Python</Link>
-                    <Link href="/schedule">Расписание</Link>
-                    <Link href="/exams">Экзамены</Link>
-                    <Link href="/olymp">Олимпиады</Link>
                 </nav>
                 <nav className={styles.group}>
-                    <Star className={styles.icon} color="yellow" />
-                    <Link href="/misc/articles">Статьи</Link>
+                    <Star className={styles.icon} />
                     <Link href="/misc/programs">Программы</Link>
+                    <Link href="/exams">Экзамены</Link>
+                    <Link href="/misc/articles">Статьи</Link>
                     <Link href="/misc/videos">Видео</Link>
                     <Link href="/misc/websites">Сайты</Link>
-                    <Link href="/materials/images">Картинки</Link>
                 </nav>
                 <nav className={styles.group}>
-                    <Users className={styles.icon} color="orchid" />
-                    <Link href="/about">О себе</Link>
-                    <Link href="/achievements">Достижения</Link>
+                    <Users className={styles.icon} />
+                    <Link href="/achievements/teacher">
+                        Достижения учеников
+                    </Link>
+                    <Link href="/achievements/teacher">Мои достижения</Link>
+                    <Link href="/schedule">Расписание</Link>
                     <Link href="/students">Ученики</Link>
+                    <Link href="/about">О себе</Link>
                 </nav>
             </Grid>
         </Container>
