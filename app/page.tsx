@@ -1,14 +1,10 @@
-import Link from 'next/link'
-
 import anonForm from '@/assets/anon-form.webp'
 import raptor from '@/assets/raptor.webp'
-import { Card } from '@/components/Card'
+import { CardLink } from '@/components/CardLink'
 import { Container } from '@/components/Container'
 import { ContainerBorders } from '@/components/ContainerBorders'
 import { HomepageNavigation } from '@/components/HomepageNavigation'
 import { NewsFeed } from '@/components/NewsFeed'
-
-import styles from './page.module.scss'
 
 export default function Home() {
     return (
@@ -27,38 +23,28 @@ export default function Home() {
             <NewsFeed />
             <HomepageNavigation />
             <Container>
-                <Link
-                    className={styles.linkCard}
+                <CardLink
                     href="https://forms.gle/kkavKTSN86r3yZLx6"
                     target="_blank"
-                    draggable={false}
+                    imageWidth={256}
+                    imageHeight={256}
+                    image={anonForm}
+                    imageAlt="Ждун дождался тебя и вручает тебе п9tеpkу!"
+                    imagePosition="right"
                 >
-                    <Card
-                        imageWidth={256}
-                        imageHeight={256}
-                        image={anonForm}
-                        imageAlt="Ждун дождался тебя и вручает тебе п9tеpkу!"
-                        imagePosition="right"
-                    >
-                        <p>Напиши мне своё анонимное мнение.</p>
-                        <p>Напиши мне то, что не можешь сказать вслух.</p>
-                    </Card>
-                </Link>
-                <Link
-                    className={styles.linkCard}
+                    <p>Напиши мне своё анонимное мнение.</p>
+                    <p>Напиши мне то, что не можешь сказать вслух.</p>
+                </CardLink>
+                <CardLink
                     href="/secrets"
-                    draggable={false}
+                    image={raptor}
+                    imageAlt="Раптор"
+                    imageWidth={256}
+                    imageHeight={256}
                 >
-                    <Card
-                        image={raptor}
-                        imageAlt="Раптор"
-                        imageWidth={256}
-                        imageHeight={256}
-                    >
-                        <p>Если это понятно, то это понятно.</p>
-                        <p>Если это не понятно, то это не понятно.</p>
-                    </Card>
-                </Link>
+                    <p>Если это понятно, то это понятно.</p>
+                    <p>Если это не понятно, то это не понятно.</p>
+                </CardLink>
             </Container>
         </main>
     )
