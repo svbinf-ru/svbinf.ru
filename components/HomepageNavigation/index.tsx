@@ -30,7 +30,7 @@ export const HomepageNavigation: FC = () => {
                 </nav>
                 <nav className={styles.group}>
                     <Users className={styles.icon} />
-                    <Link href="/achievements/teacher">
+                    <Link href="/achievements/students">
                         Достижения учеников
                     </Link>
                     <Link href="/achievements/teacher">Мои достижения</Link>
