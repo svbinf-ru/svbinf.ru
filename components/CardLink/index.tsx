@@ -25,7 +25,12 @@ export const CardLink: FC<PropsWithChildren<Props>> = ({
     imagePosition = 'left',
 }) => {
     return (
-        <Link style={{ textDecoration: 'none' }} href={href} target={target}>
+        <Link
+            href={href}
+            target={target}
+            draggable={false}
+            style={{ textDecoration: 'none' }}
+        >
             <Card
                 image={image}
                 imageAlt={imageAlt}
