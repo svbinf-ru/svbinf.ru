@@ -15,7 +15,7 @@ export const students: Student[] = [
         name: 'Диана Штукмейстер',
         description:
             'Digital художник-анималист, иллюстратор, концепт-художник.',
-        url: 'https://t.me/DianaFirai',
+        url: 'https://cara.app/dianafirai',
         picture: shtukmeisterdiana,
     },
 ]
