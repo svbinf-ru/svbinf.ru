@@ -2,6 +2,7 @@
 
 import withMDX from '@next/mdx'
 import withPWA from 'next-pwa'
+import remarkGfm from 'remark-gfm'
 
 class NextConfig {
     constructor(config) {
@@ -29,6 +30,12 @@ const nextConfig = new NextConfig({
 })
 
 nextConfig.apply(withPWA({ dest: 'public' }))
-nextConfig.apply(withMDX())
+nextConfig.apply(
+    withMDX({
+        options: {
+            remarkPlugins: [remarkGfm],
+        },
+    }),
+)
 
 export default nextConfig.configuration()
