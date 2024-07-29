@@ -5,7 +5,7 @@ export const results: ExamResult[] = [
         title: 'ЕГЭ 2023–2024',
         students: 18,
         max: 100,
-        average: 72,
+        average: 73,
         best: 88,
     },
     {
