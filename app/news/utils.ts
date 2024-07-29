@@ -10,7 +10,9 @@ interface NewsEntry {
 // Next.js не поддерживает символы в кодировке UTF-8 в маршрутизации.
 // В том числе не поддерживается кириллица.
 // См. также: https://github.com/vercel/next.js/issues/10084
-const titleMap = new Map([['2024-06-17_the-first-post', 'Первый пост']])
+const titleMap = new Map([
+    ['2024-07-29', 'Как и зачем мы переписали этот сайт'],
+])
 
 const direntToNews = (dirent: Dirent): NewsEntry => {
     const pubDate = dirent.name.split('_')[0]
