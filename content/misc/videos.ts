@@ -1,13 +1,29 @@
 import blindUsingPhone from '@/assets/misc/videos/blind-using-phone.webp'
 import electronicsInOil from '@/assets/misc/videos/electronics-in-oil.webp'
+import holidays from '@/assets/misc/videos/holidays.webp'
 import inkjetPrinter from '@/assets/misc/videos/inkjet-printer.webp'
 import membraneKeyboard from '@/assets/misc/videos/membrane-keyboard.webp'
+import memorial from '@/assets/misc/videos/memorial.webp'
 import noiseCancelling from '@/assets/misc/videos/noise-cancelling.webp'
 import raytracingExcel from '@/assets/misc/videos/raytracing-excel.webp'
 
 import { Misc } from '@/content/utils'
 
 export const videos: Misc[] = [
+    {
+        href: 'https://gorod-plus.tv/videos/110749',
+        thumbnail: memorial,
+        title: 'Памятная доска Герою России Александру Жихареву',
+        description:
+            'В лицее № 369 Красносельского района открыли мемориальную доску Герою России Александру Жихареву. В церемонии принял участие губернатор Петербурга Александр Беглов.',
+    },
+    {
+        href: 'https://www.5-tv.ru/news/421384/vrossii-hotat-sokratit-skolnye-letnie-kanikuly/',
+        thumbnail: holidays,
+        title: 'В России хотят сократить школьные летние каникулы',
+        description:
+            'Школьные каникулы предлагается сократить до полутора месяцев. Мнения на этот счет у общественности разделились.',
+    },
     {
         href: 'https://drive.google.com/file/d/13dXpwFtZy4KcgNzI80WaN5YUCv68SXib/view',
         thumbnail: electronicsInOil,
