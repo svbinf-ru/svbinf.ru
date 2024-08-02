@@ -33,6 +33,9 @@ export default function Python() {
                     </Link>
                     .
                 </p>
+                <a href="/doc/python.pdf" download target="_blank">
+                    Скачать шпаргалку по Python 3
+                </a>
                 {codeExamples.map((c) => (
                     <Box key={c.caption}>
                         <pre>
