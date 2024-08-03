@@ -3,11 +3,10 @@ import { Metadata } from 'next'
 import alanTuring from '@/assets/quotes/alan-turing.webp'
 import { Breadcrumbs } from '@/components/Breadcrumbs'
 import { Container } from '@/components/Container'
+import { ContainerExam } from '@/components/ContainerExam'
+import { Grid } from '@/components/Grid'
 import { Quotation } from '@/components/Quotation'
 import { results } from '@/content/exams/results'
-
-import { Grid } from '@/components/Grid'
-import { ContainerExam } from '@/components/ContainerExam'
 
 export const metadata: Metadata = {
     title: 'Экзамены',

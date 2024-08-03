@@ -1,9 +1,10 @@
+import { ChevronsUpDown, ChevronUp, Info, Users } from 'lucide-react'
+import { Nunito } from 'next/font/google'
 import { FC } from 'react'
 
-import styles from './styles.module.scss'
-import { Nunito } from 'next/font/google'
-import { ChevronUp, ChevronsUpDown, Info, Users } from 'lucide-react'
 import { ExamResult } from '@/content/utils'
+
+import styles from './styles.module.scss'
 
 const nunito = Nunito({ subsets: ['cyrillic'] })
 
