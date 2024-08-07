@@ -6,10 +6,18 @@ import membraneKeyboard from '@/assets/misc/videos/membrane-keyboard.webp'
 import memorial from '@/assets/misc/videos/memorial.webp'
 import noiseCancelling from '@/assets/misc/videos/noise-cancelling.webp'
 import raytracingExcel from '@/assets/misc/videos/raytracing-excel.webp'
+import digitalLiteracy from '@/assets/misc/videos/digital-literacy.webp'
 
 import { Misc } from '@/content/utils'
 
 export const videos: Misc[] = [
+    {
+        href: 'https://cdn.svb369.ru/v/mp4/digital-literacy.mp4',
+        thumbnail: digitalLiteracy,
+        title: 'Родители, спокойно',
+        description:
+            '93% российских школьников умеют определять небезопасный контент в сети',
+    },
     {
         href: 'https://gorod-plus.tv/videos/110749',
         thumbnail: memorial,
