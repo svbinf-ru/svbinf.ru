@@ -12,7 +12,7 @@ export const HomepageNavigation: FC = () => {
             <h2>Навигация</h2>
             <Grid>
                 <nav className={styles.group}>
-                    <Link href="/olymp/list">Подготовка к олимпиадам</Link>
+                    <Link href="/olymp/prep">Подготовка к олимпиадам</Link>
                     <Link href="/olymp/list">Олимпиады и конкурсы</Link>
                     <Link href="/materials/lessons">Материалы с урока</Link>
                     <Link href="/materials/images">Картинки</Link>
