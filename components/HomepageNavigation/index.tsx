@@ -1,4 +1,3 @@
-import { NotebookPen, Star, Users } from 'lucide-react'
 import Link from 'next/link'
 import { FC } from 'react'
 
@@ -13,7 +12,6 @@ export const HomepageNavigation: FC = () => {
             <h2>Навигация</h2>
             <Grid>
                 <nav className={styles.group}>
-                    <NotebookPen className={styles.icon} />
                     <Link href="/olymp/list">Подготовка к олимпиадам</Link>
                     <Link href="/olymp/list">Олимпиады и конкурсы</Link>
                     <Link href="/materials/lessons">Материалы с урока</Link>
@@ -21,7 +19,6 @@ export const HomepageNavigation: FC = () => {
                     <Link href="/materials/python">Python</Link>
                 </nav>
                 <nav className={styles.group}>
-                    <Star className={styles.icon} />
                     <Link href="/misc/programs">Программы</Link>
                     <Link href="/exams">Экзамены</Link>
                     <Link href="/misc/articles">Статьи</Link>
@@ -29,7 +26,6 @@ export const HomepageNavigation: FC = () => {
                     <Link href="/misc/websites">Сайты</Link>
                 </nav>
                 <nav className={styles.group}>
-                    <Users className={styles.icon} />
                     <Link href="/achievements/students">
                         Достижения учеников
                     </Link>
