@@ -5,6 +5,7 @@ import profile from '@/assets/profile.webp'
 import { Breadcrumbs } from '@/components/Breadcrumbs'
 import { Card } from '@/components/Card'
 import { Container } from '@/components/Container'
+import { GridTwoColumnsLarge } from '@/components/GridTwoColumnsLarge'
 import { education } from '@/content/about/education'
 
 export const metadata: Metadata = {
@@ -47,19 +48,21 @@ export default function About() {
                         с 26 января 2023.
                     </p>
                 </Card>
-                {education.map((e, i) => (
-                    <Card
-                        key={e.title}
-                        image={e.thumbnail}
-                        imageAlt={e.title}
-                        imagePosition={i % 2 == 0 ? 'left' : 'right'}
-                    >
-                        <Link target="_blank" href={e.full}>
-                            <h2>{e.title}</h2>
-                        </Link>
-                        <p>{e.description}</p>
-                    </Card>
-                ))}
+                <GridTwoColumnsLarge>
+                    {education.map((e, i) => (
+                        <Card
+                            key={e.title}
+                            image={e.thumbnail}
+                            imageAlt={e.title}
+                            imagePosition={i % 2 == 0 ? 'left' : 'right'}
+                        >
+                            <Link target="_blank" href={e.full}>
+                                <h2>{e.title}</h2>
+                            </Link>
+                            <p>{e.description}</p>
+                        </Card>
+                    ))}
+                </GridTwoColumnsLarge>
             </Container>
         </main>
     )
