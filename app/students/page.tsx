@@ -3,8 +3,8 @@ import { Metadata } from 'next'
 import { Breadcrumbs } from '@/components/Breadcrumbs'
 import { CardLink } from '@/components/CardLink'
 import { Container } from '@/components/Container'
-import { students } from '@/content/students/students'
 import { GridTwoColumns } from '@/components/GridTwoColumns'
+import { students } from '@/content/students/students'
 
 export const metadata: Metadata = {
     title: 'Ученики',
