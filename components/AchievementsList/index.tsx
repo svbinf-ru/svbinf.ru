@@ -84,7 +84,7 @@ export const AchievementsList: FC<Props> = ({ achievements }) => {
                     ))}
                 </select>
                 <button className={styles.formItem} type="submit">
-                    Фильтр
+                    Применить
                 </button>
                 <button className={styles.formItem} type="reset">
                     Сброс
