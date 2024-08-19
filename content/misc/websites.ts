@@ -1,9 +1,15 @@
 import akinator from '@/assets/misc/websites/akinator.webp'
+import autodraw from '@/assets/misc/websites/autodraw.webp'
+import beziergame from '@/assets/misc/websites/beziergame.webp'
+import cablemap from '@/assets/misc/websites/cablemap.webp'
+import flightradar from '@/assets/misc/websites/flightradar.webp'
 import freemp3cloud from '@/assets/misc/websites/freemp3cloud.webp'
 import iconbird from '@/assets/misc/websites/iconbird.webp'
 import ilovepdf from '@/assets/misc/websites/ilovepdf.webp'
+import kandinsky from '@/assets/misc/websites/kandinsky.webp'
 import qrmania from '@/assets/misc/websites/qrmania.webp'
 import randomtools from '@/assets/misc/websites/randomtools.webp'
+import ritmoteka from '@/assets/misc/websites/ritmoteka.webp'
 import storyset from '@/assets/misc/websites/storyset.webp'
 import thisPersonDoesNotExist from '@/assets/misc/websites/this-person-does-not-exist.webp'
 import youdotcom from '@/assets/misc/websites/youdotcom.webp'
@@ -11,16 +17,38 @@ import vocalremover from '@/assets/misc/websites/vocalremover.webp'
 import pathfinding from '@/assets/misc/websites/pathfinding.webp'
 import theTrueSize from '@/assets/misc/websites/the-true-size.webp'
 import virustotal from '@/assets/misc/websites/virustotal.webp'
+import visper from '@/assets/misc/websites/visper.webp'
+import xpression from '@/assets/misc/websites/xpression.webp'
 
 import { Misc } from '@/content/utils'
 
 export const websites: Misc[] = [
+    {
+        href: 'https://fusionbrain.ai/',
+        thumbnail: kandinsky,
+        title: 'Kandinsky',
+        description:
+            'Создавайте изображения и видео за секунды с помощью текстовых описаний.',
+    },
+    {
+        href: 'https://www.autodraw.com/',
+        thumbnail: autodraw,
+        title: 'AutoDraw',
+        description:
+            'Помогает превратить наброски в чёткие и красивые изображения.',
+    },
     {
         href: 'https://ru.akinator.com/',
         thumbnail: akinator,
         title: 'Акинатор',
         description:
             'Игрок должен загадать любого персонажа, а Акинатор — отгадать его.',
+    },
+    {
+        href: 'https://cablemap.info/_default.aspx',
+        thumbnail: cablemap,
+        title: 'Cable Map',
+        description: 'Карта морских коммуникаций.',
     },
     {
         href: 'https://www.ilovepdf.com/',
@@ -33,6 +61,12 @@ export const websites: Misc[] = [
         thumbnail: storyset,
         title: 'Storyset',
         description: 'Иллюстрации для ваших презентаций и проектов.',
+    },
+    {
+        href: 'https://bezier.method.ac/',
+        thumbnail: beziergame,
+        title: 'The Bezier Game',
+        description: 'Обучающий игровой тренажёр по построению кривых Безье.',
     },
     {
         href: 'https://iconbird.com/',
@@ -54,10 +88,23 @@ export const websites: Misc[] = [
         description: 'Онлайн-антивирус.',
     },
     {
+        href: 'https://www.flightradar24.com',
+        thumbnail: flightradar,
+        title: 'Flightradar24',
+        description: 'Наблюдайте за движением самолётов в прямом эфире.',
+    },
+    {
         href: 'https://freemp3cloud.com',
         thumbnail: freemp3cloud,
         title: 'Free Mp3 Cloud',
         description: 'Поиск и загрузка миллионов треков в формате .mp3.',
+    },
+    {
+        href: 'https://ritmoteka.ru/',
+        thumbnail: ritmoteka,
+        title: 'Ритмотека',
+        description:
+            'Здесь можно определить название песни, просто настучав её мотив на клавиатуре.',
     },
     {
         href: 'https://you.com',
@@ -66,11 +113,25 @@ export const websites: Misc[] = [
         description: 'Бесплатный ChatGPT в России.',
     },
     {
+        href: 'https://visper.tech/',
+        thumbnail: visper,
+        title: 'Visper',
+        description:
+            'Обучающие ролики, презентации, новости. Для работы, учёбы, соцсетей. Без съёмок, оборудования и монтажа. Бесплатно.',
+    },
+    {
         href: 'https://thispersondoesnotexist.com/',
         thumbnail: thisPersonDoesNotExist,
         title: 'This Person Does Not Exist',
         description:
             'Генерирует фотографию человека с помощью нейронных сетей.',
+    },
+    {
+        href: 'https://xpressioncamera.com/',
+        thumbnail: xpression,
+        title: 'xpression camera',
+        description:
+            'Вы можете перемещать человека на изображении или видео в режиме реального времени.',
     },
     {
         href: 'https://randomtools.io',
