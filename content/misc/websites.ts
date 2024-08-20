@@ -2,11 +2,18 @@ import akinator from '@/assets/misc/websites/akinator.webp'
 import autodraw from '@/assets/misc/websites/autodraw.webp'
 import beziergame from '@/assets/misc/websites/beziergame.webp'
 import cablemap from '@/assets/misc/websites/cablemap.webp'
+import fakeupdate from '@/assets/misc/websites/fakeupdate.webp'
 import flightradar from '@/assets/misc/websites/flightradar.webp'
 import freemp3cloud from '@/assets/misc/websites/freemp3cloud.webp'
+import generatedPhotos from '@/assets/misc/websites/generated-photos.webp'
+import googleTimelapse from '@/assets/misc/websites/google-timelapse.webp'
 import iconbird from '@/assets/misc/websites/iconbird.webp'
 import ilovepdf from '@/assets/misc/websites/ilovepdf.webp'
+import iss from '@/assets/misc/websites/iss.webp'
 import kandinsky from '@/assets/misc/websites/kandinsky.webp'
+import nealFun from '@/assets/misc/websites/neal-fun.webp'
+import neuralLove from '@/assets/misc/websites/neural-love.webp'
+import pwned from '@/assets/misc/websites/pwned.webp'
 import qrmania from '@/assets/misc/websites/qrmania.webp'
 import randomtools from '@/assets/misc/websites/randomtools.webp'
 import ritmoteka from '@/assets/misc/websites/ritmoteka.webp'
@@ -16,8 +23,10 @@ import youdotcom from '@/assets/misc/websites/youdotcom.webp'
 import vocalremover from '@/assets/misc/websites/vocalremover.webp'
 import pathfinding from '@/assets/misc/websites/pathfinding.webp'
 import theTrueSize from '@/assets/misc/websites/the-true-size.webp'
+import ui from '@/assets/misc/websites/ui.webp'
 import virustotal from '@/assets/misc/websites/virustotal.webp'
 import visper from '@/assets/misc/websites/visper.webp'
+import wheelDecide from '@/assets/misc/websites/wheeldecide.webp'
 import xpression from '@/assets/misc/websites/xpression.webp'
 
 import { Misc } from '@/content/utils'
@@ -45,6 +54,12 @@ export const websites: Misc[] = [
             'Игрок должен загадать любого персонажа, а Акинатор — отгадать его.',
     },
     {
+        href: 'https://neal.fun',
+        thumbnail: nealFun,
+        title: 'Neal.fun',
+        description: 'Крошечный интернет-уголок',
+    },
+    {
         href: 'https://cablemap.info/_default.aspx',
         thumbnail: cablemap,
         title: 'Cable Map',
@@ -69,6 +84,12 @@ export const websites: Misc[] = [
         description: 'Обучающий игровой тренажёр по построению кривых Безье.',
     },
     {
+        href: 'https://wheeldecide.com/',
+        thumbnail: wheelDecide,
+        title: 'Wheel Decide',
+        description: 'Не можете решить? Колесо решает за вас!',
+    },
+    {
         href: 'https://iconbird.com/',
         thumbnail: iconbird,
         title: 'Iconbird',
@@ -82,6 +103,13 @@ export const websites: Misc[] = [
             'Создание QR-кодов. Сканирование и чтение QR-кодов онлайн с камеры.',
     },
     {
+        href: 'https://haveibeenpwned.com/',
+        thumbnail: pwned,
+        title: 'Have I Been Pwned',
+        description:
+            'Позволяет пользователям проверять, были ли их личные данные скомпрометированы.',
+    },
+    {
         href: 'https://virustotal.com/',
         thumbnail: virustotal,
         title: 'VirusTotal',
@@ -92,6 +120,20 @@ export const websites: Misc[] = [
         thumbnail: flightradar,
         title: 'Flightradar24',
         description: 'Наблюдайте за движением самолётов в прямом эфире.',
+    },
+    {
+        href: 'https://iss.stormway.ru/ru/',
+        thumbnail: iss,
+        title: 'МКС в прямом эфире.',
+        description:
+            'Внутренние съемки, когда экипаж выполняет служебные обязанности, а также внешние съемки.',
+    },
+    {
+        href: 'https://earthengine.google.com/timelapse/',
+        thumbnail: googleTimelapse,
+        title: 'Google Timelapse',
+        description:
+            'Можно наблюдать, как происходят процессы урбанизации, высыхают озера, тают ледники и т.д.',
     },
     {
         href: 'https://freemp3cloud.com',
@@ -120,11 +162,23 @@ export const websites: Misc[] = [
             'Обучающие ролики, презентации, новости. Для работы, учёбы, соцсетей. Без съёмок, оборудования и монтажа. Бесплатно.',
     },
     {
+        href: 'https://neural.love/',
+        thumbnail: neuralLove,
+        title: 'neural.love',
+        description: 'Единая ИИ-платформа для творцов.',
+    },
+    {
         href: 'https://thispersondoesnotexist.com/',
         thumbnail: thisPersonDoesNotExist,
         title: 'This Person Does Not Exist',
         description:
             'Генерирует фотографию человека с помощью нейронных сетей.',
+    },
+    {
+        href: 'https://generated.photos/',
+        thumbnail: generatedPhotos,
+        title: 'Generated Photos',
+        description: 'Уникальные фото, сгенерированные ИИ.',
     },
     {
         href: 'https://xpressioncamera.com/',
@@ -138,6 +192,13 @@ export const websites: Misc[] = [
         thumbnail: randomtools,
         title: 'Random Tools',
         description: 'Утилиты для работы с соц. сетями, рандомом и данными.',
+    },
+    {
+        href: 'https://userinyerface.com/',
+        thumbnail: ui,
+        title: 'User Inyerface',
+        description:
+            'Сайт, воплощающий всё худшее в современном дизайне интерфейсов.',
     },
     {
         href: 'https://vocalremover.org/ru/',
@@ -158,5 +219,11 @@ export const websites: Misc[] = [
         title: 'PathFinding',
         description:
             'Определение наилучшего, оптимального маршрута между двумя точками.',
+    },
+    {
+        href: 'https://fakeupdate.net/',
+        thumbnail: fakeupdate,
+        title: 'FakeUpdate',
+        description: 'Поддельные обновления операционной системы MS Windows.',
     },
 ]
