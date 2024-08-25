@@ -1,6 +1,5 @@
 import { LucideIcon } from 'lucide-react'
 import { StaticImageData } from 'next/image'
-import { JSX } from 'react'
 
 export interface Achievement {
     thumbnail: StaticImageData
@@ -33,12 +32,6 @@ export interface ExamResult {
 
 export interface MaterialsImage {
     src: StaticImageData
-    caption: string
-    full: string
-}
-
-export interface MaterialsTable {
-    table: JSX.Element
     caption: string
     full: string
 }

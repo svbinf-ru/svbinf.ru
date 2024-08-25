@@ -8,7 +8,7 @@ import { Breadcrumbs } from '@/components/Breadcrumbs'
 import { Container } from '@/components/Container'
 import { Grid } from '@/components/Grid'
 import { Quotation } from '@/components/Quotation'
-import { images, tables } from '@/content/materials/lessons'
+import { images } from '@/content/materials/lessons'
 
 export const metadata: Metadata = {
     title: 'Материалы с урока',
@@ -25,24 +25,12 @@ export default function Lessons() {
             />
             <Container>
                 <h1>Материалы с урока</h1>
-                <h2>Изображения</h2>
                 <Grid>
                     {images.map((i) => (
                         <Box key={i.caption}>
                             <Image src={i.src} alt={i.caption} />
                             <Link href={i.full} target="_blank">
                                 <h3>{i.caption}</h3>
-                            </Link>
-                        </Box>
-                    ))}
-                </Grid>
-                <h2>Таблицы</h2>
-                <Grid>
-                    {tables.map((t) => (
-                        <Box key={t.caption}>
-                            {t.table}
-                            <Link href={t.full} target="_blank">
-                                <h3>{t.caption}</h3>
                             </Link>
                         </Box>
                     ))}
