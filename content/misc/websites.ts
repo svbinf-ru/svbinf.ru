@@ -2,6 +2,7 @@ import akinator from '@/assets/misc/websites/akinator.webp'
 import autodraw from '@/assets/misc/websites/autodraw.webp'
 import beziergame from '@/assets/misc/websites/beziergame.webp'
 import cablemap from '@/assets/misc/websites/cablemap.webp'
+import excalidraw from '@/assets/misc/websites/excalidraw.webp'
 import fakeupdate from '@/assets/misc/websites/fakeupdate.webp'
 import flightradar from '@/assets/misc/websites/flightradar.webp'
 import freemp3cloud from '@/assets/misc/websites/freemp3cloud.webp'
@@ -40,11 +41,10 @@ export const websites: Misc[] = [
             'Создавайте изображения и видео за секунды с помощью текстовых описаний.',
     },
     {
-        href: 'https://www.autodraw.com/',
-        thumbnail: autodraw,
-        title: 'AutoDraw',
-        description:
-            'Помогает превратить наброски в чёткие и красивые изображения.',
+        href: 'https://excalidraw.com/',
+        thumbnail: excalidraw,
+        title: 'Excalidraw',
+        description: 'Рисуйте диаграммы и схемы, словно на маркерной доске.',
     },
     {
         href: 'https://ru.akinator.com/',
@@ -101,6 +101,13 @@ export const websites: Misc[] = [
         title: 'QR mania',
         description:
             'Создание QR-кодов. Сканирование и чтение QR-кодов онлайн с камеры.',
+    },
+    {
+        href: 'https://www.autodraw.com/',
+        thumbnail: autodraw,
+        title: 'AutoDraw',
+        description:
+            'Помогает превратить наброски в чёткие и красивые изображения.',
     },
     {
         href: 'https://haveibeenpwned.com/',
