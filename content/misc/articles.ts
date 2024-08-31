@@ -2,6 +2,7 @@ import bullying from '@/assets/misc/articles/bullying.webp'
 import cryptocurrency from '@/assets/misc/articles/cryptocurrency.webp'
 import metadata from '@/assets/misc/articles/metadata.webp'
 import scammer from '@/assets/misc/articles/scammer.webp'
+import samsung from '@/assets/misc/articles/samsung.webp'
 import search from '@/assets/misc/articles/search.webp'
 import socialNetworks from '@/assets/misc/articles/social-networks.webp'
 import viruses from '@/assets/misc/articles/viruses.webp'
@@ -9,6 +10,13 @@ import viruses from '@/assets/misc/articles/viruses.webp'
 import { Misc } from '@/content/utils'
 
 export const articles: Misc[] = [
+    {
+        href: 'https://habr.com/ru/companies/samsung/articles/839822/',
+        thumbnail: samsung,
+        title: 'Сложно ли пронести гаджет в школу',
+        description:
+            'История разработки B2B решения для планшетов, чтобы увеличить их востребованность в сфере образования.',
+    },
     {
         href: 'https://www.kaspersky.ru/resource-center/threats/computer-viruses-and-malware-facts-and-faqs',
         thumbnail: viruses,
