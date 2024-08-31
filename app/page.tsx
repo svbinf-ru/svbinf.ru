@@ -21,7 +21,6 @@ export default function Home() {
                     </p>
                 </ContainerBorders>
             </Container>
-            <NewsFeed />
             <HomepageNavigation />
             <Container>
                 <GridTwoColumns>
@@ -48,6 +47,7 @@ export default function Home() {
                         <p>Напиши мне то, что не можешь сказать вслух.</p>
                     </CardLink>
                 </GridTwoColumns>
+                <NewsFeed />
             </Container>
         </main>
     )
