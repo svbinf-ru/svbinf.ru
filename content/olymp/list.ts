@@ -15,6 +15,12 @@ import { Olymp } from '@/content/olymp'
 
 export const olympiads: Olymp[] = [
     {
+        title: 'II Всероссийский чемпионат по виртуальной робототехнике',
+        href: 'https://kulibin.app/competition',
+        type: 'Чемпионат',
+        info: ['При поддержке РДДМ "Движение первых"'],
+    },
+    {
         title: 'Всероссийская олимпиада по искусственному интеллекту',
         href: 'https://olimpiada.ru/activity/5825',
         type: 'Перечневая олимпиада',
