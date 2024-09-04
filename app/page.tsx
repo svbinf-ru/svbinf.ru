@@ -47,8 +47,8 @@ export default function Home() {
                         <p>Напиши мне то, что не можешь сказать вслух.</p>
                     </CardLink>
                 </GridTwoColumns>
-                <NewsFeed />
             </Container>
+            <NewsFeed />
         </main>
     )
 }
