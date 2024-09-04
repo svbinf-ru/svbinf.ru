@@ -11,7 +11,8 @@ interface NewsEntry {
 // В том числе не поддерживается кириллица.
 // См. также: https://github.com/vercel/next.js/issues/10084
 const titleMap = new Map([
-    ['2024-07-29', 'Как и зачем мы переписали этот сайт'],
+    ['2024-09-04', 'График школьного этапа ВсОШ 2024-2025!'],
+    ['2024-07-29-olymp', 'Как и зачем мы переписали этот сайт'],
 ])
 
 const direntToNews = (dirent: Dirent): NewsEntry => {
@@ -29,6 +30,7 @@ export const getRecentNews = (): NewsEntry[] => {
 
     return readdirSync(newsDir, { withFileTypes: true })
         .filter((dirent) => dirent.isDirectory())
-        .slice(0, 15)
+        .slice(-15)
+        .reverse()
         .map(direntToNews)
 }
