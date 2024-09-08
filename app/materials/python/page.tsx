@@ -33,7 +33,11 @@ export default function Python() {
                     </Link>
                     .
                 </p>
-                <a href="/doc/python.pdf" download target="_blank">
+                <a
+                    href="https://cdn.svb369.ru/d/pdf/python.pdf"
+                    download
+                    target="_blank"
+                >
                     Скачать шпаргалку по Python 3
                 </a>
                 {codeExamples.map((c) => (
