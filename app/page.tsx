@@ -9,9 +9,6 @@ import { NewsFeed } from '@/components/NewsFeed'
 export default function Home() {
     return (
         <main>
-            <Container>
-                <h1>Добро пожаловать!</h1>
-            </Container>
             <HomepageNavigation />
             <Container>
                 <GridTwoColumns>
