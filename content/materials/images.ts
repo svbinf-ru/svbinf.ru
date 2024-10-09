@@ -5,7 +5,6 @@ import avatar04 from '@/assets/materials/images/avatars/04.webp'
 import avatar05 from '@/assets/materials/images/avatars/05.webp'
 import avatar06 from '@/assets/materials/images/avatars/06.webp'
 import avatar07 from '@/assets/materials/images/avatars/07.webp'
-import avatar08 from '@/assets/materials/images/avatars/08.webp'
 import avatar09 from '@/assets/materials/images/avatars/09.webp'
 import avatar10 from '@/assets/materials/images/avatars/10.webp'
 import avatar11 from '@/assets/materials/images/avatars/11.webp'
@@ -73,11 +72,6 @@ export const avatars: MaterialsImage[] = [
         src: avatar07,
         caption: 'Аватар 7',
         full: 'https://cdn.svb369.ru/i/avatars/07.jpg',
-    },
-    {
-        src: avatar08,
-        caption: 'Аватар 8',
-        full: 'https://cdn.svb369.ru/i/avatars/08.jpg',
     },
     {
         src: avatar09,
