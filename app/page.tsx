@@ -2,7 +2,6 @@ import anonForm from '@/assets/anon-form.webp'
 import raptor from '@/assets/raptor.webp'
 import { CardLink } from '@/components/CardLink'
 import { Container } from '@/components/Container'
-import { ContainerBorders } from '@/components/ContainerBorders'
 import { GridTwoColumns } from '@/components/GridTwoColumns'
 import { HomepageNavigation } from '@/components/HomepageNavigation'
 import { NewsFeed } from '@/components/NewsFeed'
@@ -12,14 +11,6 @@ export default function Home() {
         <main>
             <Container>
                 <h1>Добро пожаловать!</h1>
-                <ContainerBorders>
-                    <p>
-                        Здесь вы можете узнать информацию об олимпиадах, скачать
-                        полезные материалы, найти ссылки на интересные сайты,
-                        программы и статьи. А также можете найти секретные
-                        послания.
-                    </p>
-                </ContainerBorders>
             </Container>
             <HomepageNavigation />
             <Container>
