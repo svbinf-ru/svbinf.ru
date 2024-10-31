@@ -11,6 +11,7 @@ interface NewsEntry {
 // В том числе не поддерживается кириллица.
 // См. также: https://github.com/vercel/next.js/issues/10084
 const titleMap = new Map([
+    ['2024-10-31_olymp_municipal', 'График районного этапа ВСОШ 2024-2025!'],
     ['2024-09-04_olymp', 'График школьного этапа ВсОШ 2024-2025!'],
     [
         '2024-09-04_competition',
