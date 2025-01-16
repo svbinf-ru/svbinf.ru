@@ -12,6 +12,26 @@ export const metadata: Metadata = {
     title: 'О себе',
 }
 
+const calcExperience = (): string => {
+    const teacherSince = 1567376053 * 1000
+    const now = Date.now()
+
+    const diff = now - teacherSince
+    const toYears = 31536000000
+    const yearsOfExperience = Math.floor(diff / toYears)
+
+    switch (yearsOfExperience % 10) {
+        case 1:
+            return `${yearsOfExperience} год`
+        case 2:
+        case 3:
+        case 4:
+            return `${yearsOfExperience} года`
+        default:
+            return `${yearsOfExperience} лет`
+    }
+}
+
 export default function About() {
     return (
         <main>
@@ -25,7 +45,8 @@ export default function About() {
                 >
                     <h1>Скотников Вадим Борисович</h1>
                     <p>
-                        Учитель информатики, педагогический стаж работы 4 года.
+                        Учитель информатики, педагогический стаж работы{' '}
+                        {calcExperience()}.
                     </p>
                     <p>
                         Установлена{' '}
