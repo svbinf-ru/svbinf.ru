@@ -29,6 +29,7 @@ import ui from '@/assets/misc/websites/ui.webp'
 import virustotal from '@/assets/misc/websites/virustotal.webp'
 import visper from '@/assets/misc/websites/visper.webp'
 import wheelDecide from '@/assets/misc/websites/wheeldecide.webp'
+import winningSolitaire from '@/assets/misc/websites/winning_solitaire.webp'
 import xpression from '@/assets/misc/websites/xpression.webp'
 
 import { Misc } from '@/content/utils'
@@ -188,6 +189,12 @@ export const websites: Misc[] = [
         title: 'This Person Does Not Exist',
         description:
             'Генерирует фотографию человека с помощью нейронных сетей.',
+    },
+    {
+        href: 'https://mrdoob.com/#/142/winning_solitaire',
+        thumbnail: winningSolitaire,
+        title: 'Winning Solitaire',
+        description: 'Пасьянс с приколом.',
     },
     {
         href: 'https://generated.photos/',
