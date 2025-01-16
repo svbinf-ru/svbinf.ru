@@ -1,3 +1,4 @@
+import acmp from '@/assets/olymp/prep/acmp.webp'
 import codeforces from '@/assets/olymp/prep/codeforces.webp'
 import codewars from '@/assets/olymp/prep/codewars.webp'
 import informatics from '@/assets/olymp/prep/informatics.webp'
@@ -38,5 +39,11 @@ export const prepResources: OlympPrep[] = [
         thumbnail: informatics,
         title: 'Информатикс',
         description: 'Учебные и олимпиадные задачи по информатике.',
+    },
+    {
+        href: 'https://acmp.ru/index.asp?main=tasks',
+        thumbnail: acmp,
+        title: 'Школа программиста',
+        description: 'Сборник олимпиадных задач по информатике.',
     },
 ]
