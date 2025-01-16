@@ -12,6 +12,7 @@ import iconbird from '@/assets/misc/websites/iconbird.webp'
 import ilovepdf from '@/assets/misc/websites/ilovepdf.webp'
 import iss from '@/assets/misc/websites/iss.webp'
 import kandinsky from '@/assets/misc/websites/kandinsky.webp'
+import monkeytype from '@/assets/misc/websites/monkeytype.webp'
 import nealFun from '@/assets/misc/websites/neal-fun.webp'
 import neuralLove from '@/assets/misc/websites/neural-love.webp'
 import pwned from '@/assets/misc/websites/pwned.webp'
@@ -101,6 +102,13 @@ export const websites: Misc[] = [
         title: 'QR mania',
         description:
             'Создание QR-кодов. Сканирование и чтение QR-кодов онлайн с камеры.',
+    },
+    {
+        href: 'https://monkeytype.com/',
+        thumbnail: monkeytype,
+        title: 'Monkeytype',
+        description:
+            'Минималистичный и настраиваемый тренажёр печати с открытым исходным кодом.',
     },
     {
         href: 'https://www.autodraw.com/',
