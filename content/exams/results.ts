@@ -21,6 +21,7 @@ export const results: ExamResult[] = [
         students: 9,
         max: 100,
         average: 72,
+        best: 93,
     },
     {
         title: 'ОГЭ 2021–2022',
