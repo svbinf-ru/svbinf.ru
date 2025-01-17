@@ -9,6 +9,7 @@ import keepassxc from '@/assets/misc/programs/keepassxc.webp'
 import mailspring from '@/assets/misc/programs/mailspring.webp'
 import obs from '@/assets/misc/programs/obs.webp'
 import obsidian from '@/assets/misc/programs/obsidian.webp'
+import paint from '@/assets/misc/programs/paint.webp'
 import sumatrapdf from '@/assets/misc/programs/sumatrapdf.webp'
 
 import { Misc } from '@/content/utils'
@@ -47,6 +48,12 @@ export const programs: Misc[] = [
         title: 'Blender',
         description:
             'Бесплатный пакет для создания 3D-изображений с открытым исходным кодом.',
+    },
+    {
+        href: 'https://www.getpaint.net/download.html',
+        thumbnail: paint,
+        title: 'Paint.NET',
+        description: 'Простой редактор изображений для Windows.',
     },
     {
         href: 'https://www.gimp.org/',
