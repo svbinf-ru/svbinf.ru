@@ -6,6 +6,7 @@ import excalidraw from '@/assets/misc/websites/excalidraw.webp'
 import fakeupdate from '@/assets/misc/websites/fakeupdate.webp'
 import flightradar from '@/assets/misc/websites/flightradar.webp'
 import freemp3cloud from '@/assets/misc/websites/freemp3cloud.webp'
+import geektyper from '@/assets/misc/websites/geektyper.webp'
 import generatedPhotos from '@/assets/misc/websites/generated-photos.webp'
 import googleTimelapse from '@/assets/misc/websites/google-timelapse.webp'
 import hackertyper from '@/assets/misc/websites/hackertyper.webp'
@@ -202,6 +203,12 @@ export const websites: Misc[] = [
         thumbnail: hackertyper,
         title: 'HackerTyper',
         description: 'Притворитесь стереотипным хакером.',
+    },
+    {
+        href: 'https://geektyper.com',
+        thumbnail: geektyper,
+        title: 'GeekTyper',
+        description: 'Создайте рабочую атмосферу хакера или устройте пранк.',
     },
     {
         href: 'https://generated.photos/',
