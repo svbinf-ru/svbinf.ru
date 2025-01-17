@@ -8,6 +8,7 @@ import flightradar from '@/assets/misc/websites/flightradar.webp'
 import freemp3cloud from '@/assets/misc/websites/freemp3cloud.webp'
 import generatedPhotos from '@/assets/misc/websites/generated-photos.webp'
 import googleTimelapse from '@/assets/misc/websites/google-timelapse.webp'
+import hackertyper from '@/assets/misc/websites/hackertyper.webp'
 import iconbird from '@/assets/misc/websites/iconbird.webp'
 import ilovepdf from '@/assets/misc/websites/ilovepdf.webp'
 import iss from '@/assets/misc/websites/iss.webp'
@@ -195,6 +196,12 @@ export const websites: Misc[] = [
         thumbnail: winningSolitaire,
         title: 'Winning Solitaire',
         description: 'Пасьянс с приколом.',
+    },
+    {
+        href: 'https://hackertyper.net',
+        thumbnail: hackertyper,
+        title: 'HackerTyper',
+        description: 'Притворитесь стереотипным хакером.',
     },
     {
         href: 'https://generated.photos/',
