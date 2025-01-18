@@ -19,10 +19,8 @@ export const ContainerOlymp: FC<Olymp> = ({
     info,
 }) => {
     return (
-        <div className={styles.container}>
-            <Link href={href} target="_blank">
-                <h3 className={styles.resultTitle}>{title}</h3>
-            </Link>
+        <Link href={href} target="_blank" className={styles.container}>
+            <h3 className={styles.resultTitle}>{title}</h3>
             <div className={nunito.className}>
                 {type && (
                     <p className={styles.entry}>
@@ -66,6 +64,6 @@ export const ContainerOlymp: FC<Olymp> = ({
                         </p>
                     ))}
             </div>
-        </div>
+        </Link>
     )
 }
