@@ -16,44 +16,52 @@ import { Olymp } from '@/content/olymp'
 // Перечневые олимпиады.
 export const listedOlympiads: Olymp[] = [
     {
-        title: 'Всероссийская олимпиада по искусственному интеллекту',
-        href: 'https://olimpiada.ru/activity/5825',
-        info: ['Очно-заочная'],
-    },
-    {
-        title: 'Олимпиада «Высшая проба» по информатике',
-        href: 'https://olimpiada.ru/activity/153',
-        info: ['Очно-заочная'],
-    },
-    {
-        title: 'Олимпиада СПбГУ по информатике',
-        href: 'https://olimpiada.ru/activity/465',
-        info: ['Очно-заочная'],
-    },
-    {
-        title: 'Олимпиада «Газпром»',
-        href: 'https://olimpiada.ru/activity/5516',
-        info: ['Очно-заочная'],
-    },
-    {
-        title: 'Олимпиада «Гранит науки» по информатике',
-        href: 'https://olimpiada.ru/activity/5481',
-        info: ['Очно-заочная'],
-    },
-    {
         title: 'Открытая олимпиада школьников (информатика)',
         href: 'https://olimpiada.ru/activity/4357',
+        level: '1 (в перечне Минобрнауки)',
         info: ['Очно-заочная'],
     },
     {
         title: 'Олимпиада школьников по информатике и программированию',
         href: 'https://olimpiada.ru/activity/4337',
+        level: '1 (в перечне Минобрнауки)',
+        info: ['Очно-заочная'],
+    },
+    {
+        title: 'Олимпиада «Высшая проба» по информатике',
+        href: 'https://olimpiada.ru/activity/153',
+        level: '1 (в перечне Минобрнауки)',
+        info: ['Очно-заочная'],
+    },
+    {
+        title: 'Олимпиада СПбГУ по информатике',
+        href: 'https://olimpiada.ru/activity/465',
+        level: '1 (в перечне Минобрнауки)',
+        info: ['Очно-заочная'],
+    },
+    {
+        title: 'Всероссийская олимпиада по искусственному интеллекту',
+        href: 'https://olimpiada.ru/activity/5825',
+        level: '2 (в перечне Минобрнауки)',
+        info: ['Очно-заочная'],
+    },
+    {
+        title: 'Олимпиада «Газпром»',
+        href: 'https://olimpiada.ru/activity/5516',
+        level: '2 или 3 по 5 профилям (в перечне Минобрнауки)',
         info: ['Очно-заочная'],
     },
     {
         title: 'Национальная технологическая олимпиада',
         href: 'https://olimpiada.ru/activity/5369',
+        level: '2 или 3 по 21 профилю (в перечне Минобрнауки)',
         info: ['Командная', 'Очно-заочная'],
+    },
+    {
+        title: 'Олимпиада «Гранит науки» по информатике',
+        href: 'https://olimpiada.ru/activity/5481',
+        level: '3 (в перечне Минобрнауки)',
+        info: ['Очно-заочная'],
     },
 ]
 
