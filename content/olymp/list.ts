@@ -46,6 +46,18 @@ export const listedOlympiads: Olymp[] = [
         info: ['Очно-заочная'],
     },
     {
+        title: 'Международная олимпиада Innopolis Open по информатике',
+        href: 'https://olimpiada.ru/activity/5283',
+        level: '2 (в перечне Минобрнауки)',
+        info: ['Очно-заочная'],
+    },
+    {
+        title: 'Международная олимпиада Innopolis Open по информационной безопасности',
+        href: 'https://olimpiada.ru/activity/5698',
+        level: '2 (в перечне Минобрнауки)',
+        info: ['Очно-заочная'],
+    },
+    {
         title: 'Олимпиада «Газпром»',
         href: 'https://olimpiada.ru/activity/5516',
         level: '2 или 3 по 5 профилям (в перечне Минобрнауки)',
@@ -67,18 +79,6 @@ export const listedOlympiads: Olymp[] = [
 
 // Другие олимпиады (не из перечня Минобрнауки).
 export const otherOlympiads: Olymp[] = [
-    {
-        title: 'Международная олимпиада Innopolis Open по информатике',
-        href: 'https://olimpiada.ru/activity/5283',
-        type: 'Олимпиада',
-        level: 'Международная',
-    },
-    {
-        title: 'Международная олимпиада Innopolis Open по информационной безопасности',
-        href: 'https://olimpiada.ru/activity/5698',
-        type: 'Олимпиада',
-        level: 'Международная',
-    },
     {
         title: 'Санкт-Петербургская открытая олимпиада по программированию для 3-7 классов',
         href: 'http://prog.matolimp-spb.org',
