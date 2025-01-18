@@ -15,6 +15,7 @@ import ilovepdf from '@/assets/misc/websites/ilovepdf.webp'
 import iss from '@/assets/misc/websites/iss.webp'
 import kandinsky from '@/assets/misc/websites/kandinsky.webp'
 import monkeytype from '@/assets/misc/websites/monkeytype.webp'
+import msdosGames from '@/assets/misc/websites/msdos-games.webp'
 import nealFun from '@/assets/misc/websites/neal-fun.webp'
 import neuralLove from '@/assets/misc/websites/neural-love.webp'
 import pwned from '@/assets/misc/websites/pwned.webp'
@@ -105,6 +106,12 @@ export const websites: Misc[] = [
         title: 'QR mania',
         description:
             'Создание QR-кодов. Сканирование и чтение QR-кодов онлайн с камеры.',
+    },
+    {
+        href: 'https://archive.org/details/softwarelibrary_msdos_games?tab=collection&sort=-downloads',
+        thumbnail: msdosGames,
+        title: 'Игры для MS DOS',
+        description: 'Коллекция игр для MS DOS на портале Internet Archive.',
     },
     {
         href: 'https://monkeytype.com/',
