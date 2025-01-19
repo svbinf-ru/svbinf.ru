@@ -25,12 +25,14 @@ export default function Lessons() {
             />
             <Container>
                 <h1>Материалы с урока</h1>
+                <p>
+                    Нажмите на картинку, чтобы открыть её в высоком разрешении.
+                </p>
                 <Grid>
                     {images.map((i) => (
                         <Box key={i.caption}>
-                            <Image src={i.src} alt={i.caption} />
                             <Link href={i.full} target="_blank">
-                                <h3>{i.caption}</h3>
+                                <Image src={i.src} alt={i.caption} />
                             </Link>
                         </Box>
                     ))}
