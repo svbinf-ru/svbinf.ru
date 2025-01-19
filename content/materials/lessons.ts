@@ -2,6 +2,7 @@ import bin from '@/assets/materials/lessons/bin.webp'
 import euler from '@/assets/materials/lessons/euler.webp'
 import graph from '@/assets/materials/lessons/graph.webp'
 import logic from '@/assets/materials/lessons/logic.webp'
+import logicOp from '@/assets/materials/lessons/logic-op.webp'
 import powers from '@/assets/materials/lessons/powers.webp'
 import units from '@/assets/materials/lessons/units.webp'
 
@@ -37,5 +38,10 @@ export const images: MaterialsImage[] = [
         src: logic,
         caption: 'Законы алгебры логики',
         full: 'https://cdn.svb369.ru/i/png/logic.png',
+    },
+    {
+        src: logicOp,
+        caption: 'Логические операции',
+        full: 'https://cdn.svb369.ru/i/png/logic-op.png',
     },
 ]
