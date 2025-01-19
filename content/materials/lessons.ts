@@ -1,6 +1,7 @@
 import bin from '@/assets/materials/lessons/bin.webp'
 import euler from '@/assets/materials/lessons/euler.webp'
 import graph from '@/assets/materials/lessons/graph.webp'
+import logic from '@/assets/materials/lessons/logic.webp'
 import powers from '@/assets/materials/lessons/powers.webp'
 import units from '@/assets/materials/lessons/units.webp'
 
@@ -31,5 +32,10 @@ export const images: MaterialsImage[] = [
         src: bin,
         caption: 'Триады и тетрады',
         full: '/img/lessons/bin.png',
+    },
+    {
+        src: logic,
+        caption: 'Законы алгебры логики',
+        full: '/img/lessons/logic.png',
     },
 ]
