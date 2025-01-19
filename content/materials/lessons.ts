@@ -11,31 +11,31 @@ export const images: MaterialsImage[] = [
     {
         src: euler,
         caption: 'Круги Эйлера',
-        full: '/img/lessons/euler.png',
+        full: 'https://cdn.svb369.ru/i/png/euler.png',
     },
     {
         src: graph,
         caption: 'Граф',
-        full: '/img/lessons/graph.png',
+        full: 'https://cdn.svb369.ru/i/png//graph.png',
     },
     {
         src: units,
         caption: 'Перевод единиц измерения',
-        full: '/img/lessons/units.png',
+        full: 'https://cdn.svb369.ru/i/png/units.png',
     },
     {
         src: powers,
         caption: 'Степени двойки',
-        full: '/img/lessons/powers.png',
+        full: 'https://cdn.svb369.ru/i/png/powers.png',
     },
     {
         src: bin,
         caption: 'Триады и тетрады',
-        full: '/img/lessons/bin.png',
+        full: 'https://cdn.svb369.ru/i/png/bin.png',
     },
     {
         src: logic,
         caption: 'Законы алгебры логики',
-        full: '/img/lessons/logic.png',
+        full: 'https://cdn.svb369.ru/i/png/logic.png',
     },
 ]
