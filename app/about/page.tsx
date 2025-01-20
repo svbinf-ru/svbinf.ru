@@ -2,10 +2,12 @@ import { Metadata } from 'next'
 import Link from 'next/link'
 
 import profile from '@/assets/profile.webp'
+import vbSn from '@/assets/quotes/vb-sn.webp'
 import { Breadcrumbs } from '@/components/Breadcrumbs'
 import { Card } from '@/components/Card'
 import { Container } from '@/components/Container'
 import { GridTwoColumnsLarge } from '@/components/GridTwoColumnsLarge'
+import { Quotation } from '@/components/Quotation'
 import { education } from '@/content/about/education'
 
 export const metadata: Metadata = {
@@ -84,6 +86,15 @@ export default function About() {
                         </Card>
                     ))}
                 </GridTwoColumnsLarge>
+                <Quotation
+                    quote={
+                        'В.Б. —    Linux лучше, чем Windows.\nС.Н. —    Чем?\nВ.Б. —    Чем Windows!'
+                    }
+                    author="Скотников Вадим Борисович и Синявин Никита"
+                    picture={vbSn}
+                    pictureWidth={256}
+                    pictureHeight={256}
+                />
             </Container>
         </main>
     )
