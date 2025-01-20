@@ -1,8 +1,10 @@
 import { Metadata } from 'next'
 
+import ivanShelepugin from '@/assets/quotes/ivan-shelepugin.webp'
 import { Breadcrumbs } from '@/components/Breadcrumbs'
 import { Container } from '@/components/Container'
 import { Grid } from '@/components/Grid'
+import { Quotation } from '@/components/Quotation'
 import { SecondaryCard } from '@/components/SecondaryCard'
 import { programs } from '@/content/misc/programs'
 
@@ -32,6 +34,13 @@ export default function Programs() {
                         />
                     ))}
                 </Grid>
+                <Quotation
+                    quote="I use Arch btw!"
+                    author="Шелепугин Иван Михайлович"
+                    picture={ivanShelepugin}
+                    pictureWidth={256}
+                    pictureHeight={256}
+                />
             </Container>
         </main>
     )
