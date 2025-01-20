@@ -1,3 +1,4 @@
+import grekinaalice from '@/assets/students/grekinaalice.webp'
 import shelepuginivan from '@/assets/students/shelepuginivan.webp'
 import shtukmeisterdiana from '@/assets/students/shtukmeisterdiana.webp'
 
@@ -17,5 +18,12 @@ export const students: Student[] = [
             'Digital художник-анималист, иллюстратор, концепт-художник.',
         url: 'https://cara.app/dianafirai',
         picture: shtukmeisterdiana,
+    },
+    {
+        name: 'Алиса Грекина',
+        description:
+            'Главный редактор и писатель независимого творческого объединения «МОХ».',
+        url: 'https://t.me/Mossprint_tg',
+        picture: grekinaalice,
     },
 ]
