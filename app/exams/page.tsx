@@ -4,7 +4,10 @@ import alanTuring from '@/assets/quotes/alan-turing.webp'
 import { Breadcrumbs } from '@/components/Breadcrumbs'
 import { Container } from '@/components/Container'
 import { ContainerExam } from '@/components/ContainerExam'
+import { ContainerVertical } from '@/components/ContainerVertical'
+import { Countdown } from '@/components/Countdown'
 import { Grid } from '@/components/Grid'
+import { GridTwoColumns } from '@/components/GridTwoColumns'
 import { Quotation } from '@/components/Quotation'
 import { results } from '@/content/exams/results'
 
@@ -18,6 +21,18 @@ export default function Exams() {
             <Breadcrumbs items={[{ href: '/exams', label: 'Экзамены' }]} />
             <Container>
                 <h1>Экзамены</h1>
+                <ContainerVertical>
+                    <GridTwoColumns>
+                        <Countdown
+                            date={new Date(2025, 4, 26, 10)}
+                            message="До ОГЭ осталось..."
+                        />
+                        <Countdown
+                            date={new Date(2025, 5, 10, 10)}
+                            message="До ЕГЭ осталось..."
+                        />
+                    </GridTwoColumns>
+                </ContainerVertical>
                 <h2>Результаты прошлых лет</h2>
                 <Grid>
                     {results.map((r) => (
