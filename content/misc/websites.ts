@@ -29,6 +29,7 @@ import vocalremover from '@/assets/misc/websites/vocalremover.webp'
 import pathfinding from '@/assets/misc/websites/pathfinding.webp'
 import theTrueSize from '@/assets/misc/websites/the-true-size.webp'
 import ui from '@/assets/misc/websites/ui.webp'
+import unislide from '@/assets/misc/websites/unislide.webp'
 import virustotal from '@/assets/misc/websites/virustotal.webp'
 import visper from '@/assets/misc/websites/visper.webp'
 import wheelDecide from '@/assets/misc/websites/wheeldecide.webp'
@@ -268,5 +269,11 @@ export const websites: Misc[] = [
         thumbnail: fakeupdate,
         title: 'FakeUpdate',
         description: 'Поддельные обновления операционной системы MS Windows.',
+    },
+    {
+        href: 'https://unislide.io/',
+        thumbnail: unislide,
+        title: 'Unislide',
+        description: 'Проводите интерактивные опросы и викторины',
     },
 ]
