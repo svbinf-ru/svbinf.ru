@@ -60,4 +60,8 @@ export const achievementYears: Option[] = [
         label: '2024 год',
         value: '2024',
     },
+    {
+        label: '2025 год',
+        value: '2025',
+    },
 ]

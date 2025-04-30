@@ -67,10 +67,17 @@ import studentAchievement65 from '@/assets/achievements/students/2024 С GUAP.we
 import studentAchievement66 from '@/assets/achievements/students/2024 С MIA BD.webp'
 import studentAchievement67 from '@/assets/achievements/students/2024 С MIA IK.webp'
 import studentAchievement68 from '@/assets/achievements/students/2024 С MIA KE.webp'
+import studentAchievement69 from '@/assets/achievements/students/2025 Д ШИПУР ИК.webp'
 
 import { Achievement } from '@/content/utils'
 
 export const students: Achievement[] = [
+    {
+        thumbnail: studentAchievement69,
+        full: '/img/achievements/students/2025 Д ШИПУР ИК.pdf',
+        year: 2025,
+        type: 'diploma',
+    },
     {
         thumbnail: studentAchievement68,
         full: '/img/achievements/students/2024 С MIA KE.jpg',
