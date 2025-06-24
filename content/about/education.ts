@@ -7,10 +7,18 @@ import professionalDevelopment2020 from '@/assets/about/2020-повышение-
 import requalification2022 from '@/assets/about/2022-профессиональная-переподготовка-спбцокоиит.webp'
 import professionalDevelopmentFgos2023 from '@/assets/about/2023-повышение-квалификации-фгос.webp'
 import professionalDevelopmentItmo2023 from '@/assets/about/2023-повышение-квалификации-итмо.webp'
+import professionalDevelopmentTutor2024 from '@/assets/about/2024-повышение-квалификации-тьютор.webp'
 
 import { Education } from '@/content/utils'
 
 export const education: Education[] = [
+    {
+        title: 'Повышение квалификации',
+        description:
+            'Государственное бюджетное нетиповое образовательное учреждение «Академия цифровых технологий» Санкт-Петербурга. По дополнительной профессиональной программе "Актуальные технологии тьюторской деятельности в общем и дополнительном образовании". 21.11.2024',
+        thumbnail: professionalDevelopmentTutor2024,
+        full: '/img/edu/2024-повышение-квалификации-тьютор.jpg',
+    },
     {
         title: 'Повышение квалификации',
         description:
