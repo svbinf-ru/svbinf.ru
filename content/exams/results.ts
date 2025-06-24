@@ -2,6 +2,14 @@ import { ExamResult } from '../utils'
 
 export const results: ExamResult[] = [
     {
+        title: 'ОГЭ 2024-2025',
+        students: 29,
+        max: 21,
+        average: 20,
+        best: 21,
+        info: ['21 балл — 9 учеников'],
+    },
+    {
         title: 'ЕГЭ 2023–2024',
         students: 18,
         max: 100,
