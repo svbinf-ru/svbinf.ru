@@ -67,16 +67,93 @@ import studentAchievement65 from '@/assets/achievements/students/2024 С GUAP.we
 import studentAchievement66 from '@/assets/achievements/students/2024 С MIA BD.webp'
 import studentAchievement67 from '@/assets/achievements/students/2024 С MIA IK.webp'
 import studentAchievement68 from '@/assets/achievements/students/2024 С MIA KE.webp'
-import studentAchievement69 from '@/assets/achievements/students/2025 Д ШИПУР ИК.webp'
+import studentAchievement69 from '@/assets/achievements/students/2024 Neva.webp'
+import studentAchievement70 from '@/assets/achievements/students/2025 Д ШИПУР ИК.webp'
+import studentAchievement71 from '@/assets/achievements/students/2025 Г ВОШ БВ.webp'
+import studentAchievement72 from '@/assets/achievements/students/2025 Г ВОШ ИК.webp'
+import studentAchievement73 from '@/assets/achievements/students/2025 Г ВОШ ИН.webp'
+import studentAchievement74 from '@/assets/achievements/students/2025 Г ВОШ ЛА.webp'
+import studentAchievement75 from '@/assets/achievements/students/2025 Г ВОШ ПК.webp'
+import studentAchievement76 from '@/assets/achievements/students/2025 Г ВОШ ПС.webp'
+import studentAchievement77 from '@/assets/achievements/students/2025 Г ВОШ ФА.webp'
+import studentAchievement78 from '@/assets/achievements/students/2025 Г ВОШ ЧМ.webp'
+import studentAchievement79 from '@/assets/achievements/students/2025 С Л ИК.webp'
+import studentAchievement80 from '@/assets/achievements/students/2025 Г ВОШ КЕ.webp'
 
 import { Achievement } from '@/content/utils'
 
 export const students: Achievement[] = [
     {
-        thumbnail: studentAchievement69,
+        thumbnail: studentAchievement80,
+        full: '/img/achievements/students/2025 Г ВОШ КЕ.jpg',
+        year: 2025,
+        type: 'commendation',
+    },
+    {
+        thumbnail: studentAchievement79,
+        full: '/img/achievements/students/2025 С Л ИК.webp',
+        year: 2025,
+        type: 'certificate',
+    },
+    {
+        thumbnail: studentAchievement78,
+        full: '/img/achievements/students/2025 Г ВОШ ЧМ.jpg',
+        year: 2025,
+        type: 'commendation',
+    },
+    {
+        thumbnail: studentAchievement77,
+        full: '/img/achievements/students/2025 Г ВОШ ФА.jpg',
+        year: 2025,
+        type: 'commendation',
+    },
+    {
+        thumbnail: studentAchievement76,
+        full: '/img/achievements/students/2025 Г ВОШ ПС.jpg',
+        year: 2025,
+        type: 'commendation',
+    },
+    {
+        thumbnail: studentAchievement75,
+        full: '/img/achievements/students/2025 Г ВОШ ПК.jpg',
+        year: 2025,
+        type: 'commendation',
+    },
+    {
+        thumbnail: studentAchievement74,
+        full: '/img/achievements/students/2025 Г ВОШ ЛА.jpg',
+        year: 2025,
+        type: 'commendation',
+    },
+    {
+        thumbnail: studentAchievement73,
+        full: '/img/achievements/students/2025 Г ВОШ ИН.jpg',
+        year: 2025,
+        type: 'commendation',
+    },
+    {
+        thumbnail: studentAchievement72,
+        full: '/img/achievements/students/2025 Г ВОШ ИК.jpg',
+        year: 2025,
+        type: 'commendation',
+    },
+    {
+        thumbnail: studentAchievement71,
+        full: '/img/achievements/students/2025 Г ВОШ БВ.jpg',
+        year: 2025,
+        type: 'commendation',
+    },
+    {
+        thumbnail: studentAchievement70,
         full: '/img/achievements/students/2025 Д ШИПУР ИК.pdf',
         year: 2025,
         type: 'diploma',
+    },
+    {
+        thumbnail: studentAchievement69,
+        full: '/img/achievements/students/2024 Neva.jpg',
+        year: 2024,
+        type: 'certificate',
     },
     {
         thumbnail: studentAchievement68,
