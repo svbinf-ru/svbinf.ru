@@ -21,63 +21,91 @@ import teacherAchievement20 from '@/assets/achievements/teacher/2022 Д КС.web
 import teacherAchievement21 from '@/assets/achievements/teacher/2022 Д МЭО.webp'
 import teacherAchievement22 from '@/assets/achievements/teacher/2022 С УчиРу.webp'
 import teacherAchievement23 from '@/assets/achievements/teacher/2022 С ШИПУР ЧЖ.webp'
-import teacherAchievement24 from '@/assets/achievements/teacher/2023 Б НИ Б.webp'
-import teacherAchievement25 from '@/assets/achievements/teacher/2023 Б ЦТД С.webp'
-import teacherAchievement26 from '@/assets/achievements/teacher/2023 С Ru.webp'
-import teacherAchievement27 from '@/assets/achievements/teacher/2023 С ППЭ.webp'
-import teacherAchievement28 from '@/assets/achievements/teacher/2024 С ЕГЭ.webp'
-import teacherAchievement29 from '@/assets/achievements/teacher/2024 С ПМФ organizator.webp'
-import teacherAchievement30 from '@/assets/achievements/teacher/2024 С ПМФ spiker.webp'
-import teacherAchievement31 from '@/assets/achievements/teacher/2024 С ПМФ Сертификат.webp'
+import teacherAchievement24 from '@/assets/achievements/teacher/2023 Б КпН.webp'
+import teacherAchievement25 from '@/assets/achievements/teacher/2023 Б НИ Б.webp'
+import teacherAchievement26 from '@/assets/achievements/teacher/2023 Б ЦТД С.webp'
+import teacherAchievement27 from '@/assets/achievements/teacher/2023 С Ru.webp'
+import teacherAchievement28 from '@/assets/achievements/teacher/2023 С ППЭ.webp'
+import teacherAchievement29 from '@/assets/achievements/teacher/2024 С ЕГЭ.webp'
+import teacherAchievement30 from '@/assets/achievements/teacher/2024 С ПМФ organizator.webp'
+import teacherAchievement31 from '@/assets/achievements/teacher/2024 С ПМФ spiker.webp'
+import teacherAchievement32 from '@/assets/achievements/teacher/2024 С ПМФ Сертификат.webp'
+import teacherAchievement33 from '@/assets/achievements/teacher/2024 Б Ат.webp'
+import teacherAchievement34 from '@/assets/achievements/teacher/2024 Б Кр.webp'
+import teacherAchievement35 from '@/assets/achievements/teacher/2025 Б Сир.webp'
 
 import { Achievement } from '@/content/utils'
 
 export const teacher: Achievement[] = [
     {
-        thumbnail: teacherAchievement31,
+        thumbnail: teacherAchievement35,
+        full: '/img/achievements/teacher/2025 Б Сир.jpg',
+        year: 2025,
+        type: 'gratitude',
+    },
+    {
+        thumbnail: teacherAchievement34,
+        full: '/img/achievements/teacher/2024 Б Кр.jpg',
+        year: 2024,
+        type: 'gratitude',
+    },
+    {
+        thumbnail: teacherAchievement33,
+        full: '/img/achievements/teacher/2024 Б Ат.jpg',
+        year: 2024,
+        type: 'gratitude',
+    },
+    {
+        thumbnail: teacherAchievement32,
         full: '/img/achievements/teacher/2024 С ПМФ Сертификат.jpg',
         year: 2024,
         type: 'certificate',
     },
     {
-        thumbnail: teacherAchievement30,
+        thumbnail: teacherAchievement31,
         full: '/img/achievements/teacher/2024 С ПМФ spiker.jpg',
         year: 2024,
         type: 'certificate',
     },
     {
-        thumbnail: teacherAchievement29,
+        thumbnail: teacherAchievement30,
         full: '/img/achievements/teacher/2024 С ПМФ organizator.jpg',
         year: 2024,
         type: 'certificate',
     },
     {
-        thumbnail: teacherAchievement28,
+        thumbnail: teacherAchievement29,
         full: '/img/achievements/teacher/2024 С ЕГЭ.jpg',
         year: 2024,
         type: 'certificate',
     },
     {
-        thumbnail: teacherAchievement27,
+        thumbnail: teacherAchievement28,
         full: '/img/achievements/teacher/2023 С ППЭ.jpg',
         year: 2023,
         type: 'certificate',
     },
     {
-        thumbnail: teacherAchievement26,
+        thumbnail: teacherAchievement27,
         full: '/img/achievements/teacher/2023 С Ru.png',
         year: 2023,
         type: 'certificate',
     },
     {
-        thumbnail: teacherAchievement25,
+        thumbnail: teacherAchievement26,
         full: '/img/achievements/teacher/2023 Б ЦТД С.jpg',
         year: 2023,
         type: 'gratitude',
     },
     {
-        thumbnail: teacherAchievement24,
+        thumbnail: teacherAchievement25,
         full: '/img/achievements/teacher/2023 Б НИ Б.jpg',
+        year: 2023,
+        type: 'gratitude',
+    },
+    {
+        thumbnail: teacherAchievement24,
+        full: '/img/achievements/teacher/2023 Б КпН.jpg',
         year: 2023,
         type: 'gratitude',
     },
