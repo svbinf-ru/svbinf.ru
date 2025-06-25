@@ -25,7 +25,7 @@ export const achievementTypes: Option[] = [
 
 export const achievementYears: Option[] = [
     {
-        label: 'Все года',
+        label: 'Всё время',
         value: '_',
     },
     {
