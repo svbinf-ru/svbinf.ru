@@ -6,7 +6,7 @@ import ga1 from '@/assets/secrets/ga1.webp'
 import ga2 from '@/assets/secrets/ga2.webp'
 import flandre from '@/assets/secrets/flandre.webp'
 import cryprography from '@/assets/secrets/cryptography.webp'
-import questionmark from '@/assets/secrets/questionmark.png'
+import questionmark from '@/assets/secrets/questionmark.webp'
 
 import { Secret } from '@/content/utils'
 
@@ -33,9 +33,10 @@ export const secrets: Secret[] = [
         picture: clarke,
     },
     {
-        title: 'Ещё никто не нашёл пасхалку №4',
-        description: 'А она уже где-то есть. Где-то рядом. ПРЯМ СОВСЕМ РЯДОМ!',
-        href: '/',
+        title: 'Павел нашёл пасхалку №4 (29.06.2025)',
+        description:
+            'Она находится в разделе "Перечень сыщиков лицея". Нужно было заметить красную надпись на вопросе "Тебе пять от вопроса!"',
+        href: '/img/secrets/questionmark.png',
         picture: questionmark,
     },
     {
