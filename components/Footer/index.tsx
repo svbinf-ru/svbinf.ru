@@ -1,6 +1,6 @@
 'use client'
 
-import { Send } from 'lucide-react'
+import { Gift, Send } from 'lucide-react'
 import Image from 'next/image'
 import { FC } from 'react'
 
@@ -28,6 +28,14 @@ export const Footer: FC = () => {
                 </button>
                 <a href="https://t.me/VadimBS_369" target="_blank">
                     <Send
+                        color="white"
+                        width={30}
+                        height={30}
+                        strokeWidth={1}
+                    />
+                </a>
+                <a href="https://cdn.svb369.ru/x/zip/10000.zip">
+                    <Gift
                         color="white"
                         width={30}
                         height={30}
