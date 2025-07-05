@@ -7,6 +7,7 @@ import ga2 from '@/assets/secrets/ga2.webp'
 import flandre from '@/assets/secrets/flandre.webp'
 import cryprography from '@/assets/secrets/cryptography.webp'
 import questionmark from '@/assets/secrets/questionmark.webp'
+import notFound from '@/assets/secrets/not-found.webp'
 
 import { Secret } from '@/content/utils'
 
@@ -73,5 +74,11 @@ export const secrets: Secret[] = [
             'Она находится на скрытой странице "/paskhalka". Нужно было указать это в адресе.',
         href: '/paskhalka',
         picture: cryprography,
+    },
+    {
+        title: 'Пока никто не нашёл пасхалку №10',
+        description: 'А она уже где-то есть.',
+        href: '#',
+        picture: notFound,
     },
 ]
