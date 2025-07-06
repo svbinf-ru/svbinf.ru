@@ -14,6 +14,10 @@ const catClick = () => {
     )
 }
 
+const zipClick = () => {
+    window.open('https://cdn.svb369.ru/x/zip/10000.zip')
+}
+
 export const Footer: FC = () => {
     return (
         <footer id="footer" className={styles.footer}>
@@ -26,16 +30,16 @@ export const Footer: FC = () => {
                         alt="Спящий котик"
                     />
                 </button>
-                <a href="https://t.me/VadimBS_369" target="_blank">
-                    <Send
+                <button className={styles.zipButton} onClick={zipClick}>
+                    <Gift
                         color="white"
                         width={30}
                         height={30}
                         strokeWidth={1}
                     />
-                </a>
-                <a href="https://cdn.svb369.ru/x/zip/10000.zip">
-                    <Gift
+                </button>
+                <a href="https://t.me/VadimBS_369" target="_blank">
+                    <Send
                         color="white"
                         width={30}
                         height={30}
