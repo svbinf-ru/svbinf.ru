@@ -9,6 +9,12 @@ import viruses from '@/assets/misc/articles/viruses.webp'
 
 import { Misc } from '@/content/utils'
 
+// Поля:
+// - href        (string):          Ссылка на ресурс
+//                                  (статью, программу, видео или сайт).
+// - thumbnail   (StaticImageData): Превью ресурса.
+// - title       (string):          Название ресурса.
+// - description (string):          Описание ресурса.
 export const articles: Misc[] = [
     {
         href: 'https://habr.com/ru/companies/samsung/articles/839822/',

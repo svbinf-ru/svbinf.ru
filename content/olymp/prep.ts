@@ -7,6 +7,11 @@ import timus from '@/assets/olymp/prep/timus.webp'
 
 import { OlympPrep } from '@/content/olymp'
 
+// Поля:
+// - href        (string):          Ссылка на ресурс
+// - thumbnail   (StaticImageData): Превью ресурса.
+// - title       (string):          Название ресурса.
+// - description (string):          Описание ресурса.
 export const prepResources: OlympPrep[] = [
     {
         href: 'https://www.codewars.com/',

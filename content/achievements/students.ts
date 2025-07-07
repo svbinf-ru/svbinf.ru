@@ -82,6 +82,15 @@ import studentAchievement80 from '@/assets/achievements/students/2025 Г ВОШ 
 
 import { Achievement } from '@/content/utils'
 
+// Поля:
+// - thumbnail   (StaticImageData): Превью достижения.
+// - full        (string):          Путь до файла без сжатия.
+// - year        (number):          Год достижения.
+// - type        (string):          Тип достижения. Возможные значения:
+//                                  ├─ 'certificate' = сертификат
+//                                  ├─ 'commendation' = грамота
+//                                  ├─ 'diploma' = диплом
+//                                  └─ 'gratitude' = благодарность
 export const students: Achievement[] = [
     {
         thumbnail: studentAchievement80,

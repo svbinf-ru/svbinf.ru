@@ -1,5 +1,12 @@
 import { ExamResult } from '../utils'
 
+// Поля
+// - title    (string):    Название экзамена.
+// - max      (number?):   Максимально возможный балл.
+// - students (number?):   Количество учеников.
+// - average  (number?):   Средний результат.
+// - best     (number?):   Лучший результат.
+// - info     (string[]?): Любая дополнительная информация
 export const results: ExamResult[] = [
     {
         title: 'ОГЭ 2024-2025',

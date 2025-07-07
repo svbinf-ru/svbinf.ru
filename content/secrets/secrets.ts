@@ -11,6 +11,13 @@ import notFound from '@/assets/secrets/not-found.webp'
 
 import { Secret } from '@/content/utils'
 
+// Поля:
+// - title       (string):          Заголовок пасхалки.
+// - description (string):          Описание пасхалки, где находится.
+// - href        (string):          Ссылка на пасхалку. Если нет явного способа
+//                                  оставить ссылку, используйте '#'.
+// - picture     (StaticImageData): Картинка пасхалки. Начиная с лета 2023,
+//                                  как правило, выбирается тем, кто нашел пасхалку.
 export const secrets: Secret[] = [
     {
         title: 'Александра нашла пасхалку №1 (12.10.2019)',

@@ -11,6 +11,11 @@ import professionalDevelopmentTutor2024 from '@/assets/about/2024-повышен
 
 import { Education } from '@/content/utils'
 
+// Поля:
+// - title       (string):          Заголовок документа об образовании.
+// - description (string):          Описания документа об образовании.
+// - thumbnail   (StaticImageData): Превью документа.
+// - full        (string):          Путь до файла без сжатия.
 export const education: Education[] = [
     {
         title: 'Повышение квалификации',

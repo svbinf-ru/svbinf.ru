@@ -8,6 +8,12 @@ import units from '@/assets/materials/lessons/units.webp'
 
 import { MaterialsImage } from '@/content/utils'
 
+// Поля
+// - src     (StaticImageData): Превью картинки.
+// - caption (string):          Описание картинки. Не отображается на экране,
+//                              но нужно для доступности.
+// - full    (string):          Ссылка на оригинальный файл
+//                              (в большем разрешении и с большим размером).
 export const images: MaterialsImage[] = [
     {
         src: euler,

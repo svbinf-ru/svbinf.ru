@@ -1,6 +1,10 @@
 import { Contact } from '@/content/utils'
 import { Mail, Phone, Send } from 'lucide-react'
 
+// Поля:
+// - href (string): Ссылка на контакт.
+// - icon (Icon):   Иконка. См. библиотеку lucide-react.
+// - text (string): Текст контакта.
 export const contacts: Contact[] = [
     {
         href: 'https://t.me/vadimbs_369',

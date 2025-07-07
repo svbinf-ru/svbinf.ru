@@ -7,6 +7,12 @@ import avatar6 from '@/assets/materials/images/avatars/6.webp'
 
 import { MaterialsImage } from '../utils'
 
+// Поля
+// - src     (StaticImageData): Превью картинки.
+// - caption (string):          Описание картинки. Не отображается на экране,
+//                              но нужно для доступности.
+// - full    (string):          Ссылка на оригинальный файл
+//                              (в большем разрешении и с большим размером).
 export const avatars: MaterialsImage[] = [
     {
         src: avatar1,

@@ -10,6 +10,12 @@ import digitalLiteracy from '@/assets/misc/videos/digital-literacy.webp'
 
 import { Misc } from '@/content/utils'
 
+// Поля:
+// - href        (string):          Ссылка на ресурс
+//                                  (статью, программу, видео или сайт).
+// - thumbnail   (StaticImageData): Превью ресурса.
+// - title       (string):          Название ресурса.
+// - description (string):          Описание ресурса.
 export const videos: Misc[] = [
     {
         href: 'https://cdn.svb369.ru/v/mp4/digital-literacy.mp4',

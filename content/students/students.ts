@@ -4,6 +4,11 @@ import shtukmeisterdiana from '@/assets/students/shtukmeisterdiana.webp'
 
 import { Student } from '@/content/utils'
 
+// Поля:
+// - name        (string):          Имя и фамилия ученика.
+// - description (string):          Текст-описание, например, род деятельности.
+// - url         (string):          Ссылка на ресурс ученика (сайт, социальную сеть и т.д.).
+// - picture     (StaticImageData): Фото ученика.
 export const students: Student[] = [
     {
         name: 'Иван Шелепугин',

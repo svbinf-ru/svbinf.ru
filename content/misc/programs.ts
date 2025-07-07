@@ -14,6 +14,12 @@ import sumatrapdf from '@/assets/misc/programs/sumatrapdf.webp'
 
 import { Misc } from '@/content/utils'
 
+// Поля:
+// - href        (string):          Ссылка на ресурс
+//                                  (статью, программу, видео или сайт).
+// - thumbnail   (StaticImageData): Превью ресурса.
+// - title       (string):          Название ресурса.
+// - description (string):          Описание ресурса.
 export const programs: Misc[] = [
     {
         href: 'https://hakutest.org/ru/',

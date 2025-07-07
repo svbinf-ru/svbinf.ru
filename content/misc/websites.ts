@@ -38,6 +38,12 @@ import xpression from '@/assets/misc/websites/xpression.webp'
 
 import { Misc } from '@/content/utils'
 
+// Поля:
+// - href        (string):          Ссылка на ресурс
+//                                  (статью, программу, видео или сайт).
+// - thumbnail   (StaticImageData): Превью ресурса.
+// - title       (string):          Название ресурса.
+// - description (string):          Описание ресурса.
 export const websites: Misc[] = [
     {
         href: 'https://fusionbrain.ai/',

@@ -1,5 +1,11 @@
 import { MaterialsCode } from '../utils'
 
+// Поля
+// - code       (string): Исходный код программы на языке Python.
+// - caption    (string): Описание программы.
+// - playground (string): Ссылка на онлайн-интерпретатор/песочницу, где можно запустить код.
+//                        Примечание: я использовал https://pythononline.net и рекомендую
+//                        оставить этот сервис для единообразия.
 export const codeExamples: MaterialsCode[] = [
     {
         code: `from itertools import permutations
