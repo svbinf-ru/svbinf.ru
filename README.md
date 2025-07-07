@@ -1,36 +1,90 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# svb369.ru
 
-## Getting Started
+## Структура проекта
 
-First, run the development server:
+|  Директория   |                             Содержимое                             |                                                                                                                                                             Примечание                                                                                                                                                              |
+| :-----------: | :----------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+|    `app/`     |                           Страницы сайта                           |                                    Эта директория образует структуру сайта. Например, файл `app/about/page.tsx` после сборки будет доступна по адресу https://svb369.ru/about. См. [документацию](https://nextjs.org/docs/app/getting-started/layouts-and-pages) для более подробной информации.                                    |
+|   `assets/`   | Медиа-файлы (в основном изображения), которые импортируются в коде |                                                                                                                               Изображения должны быть в форматах `.webp` или `.svg` для оптимизации.                                                                                                                                |
+| `components/` |                           JSX-компоненты                           |                                                                                                                                                   См. структуру компонента ниже.                                                                                                                                                    |
+|  `content/`   |                           Контент сайта                            |                                                                                                                            Содержит контент сайта, определённый декларативно. См. структуру сайта ниже.                                                                                                                             |
+|   `public/`   |                       Все прочие медиа-файлы                       | Можно ссылаться на файлы внутри `public/`, начиная с базового URL (`/`). Например, файл `public/img/secrets/questionmark.png` будет доступен по адресу https://svb369.ru/img/secrets/questionmark.png. См. [документацию](https://nextjs.org/docs/app/api-reference/file-conventions/public-folder) для более подробной информации. |
+|   `styles/`   |                      Глобальные стили (SCSS)                       |                                                                                                                                                               &mdash;                                                                                                                                                               |
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+Большинство изменений относятся к контенту сайта (`content/`) и медиа-файлам (`assets/` и `public/`).
+
+### Структура компонента
+
+```
+ComponentName
+├─ index.tsx             // Код компонента
+└─ styles.module.scss    // Стили компонента
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Структура сайта
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Этот подраздел относится к директориям `app/`, `assets/` и `content/` &mdash; они имеют одинаковую структуру, основанную на непосредственной структуре сайта.
+Например, во всех трёх директориях есть каталог `about/` &mdash; он относится к [странице "Обо себе"](https://svb369.ru/about).
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Страницы, помеченные как _навигационная страница_, содержат подразделы. Например, `achievements/` ([страница "Достижения"](https://svb369.ru/achievements)) содержит два подраздела:
+["Достижения учеников"](https://svb369.ru/achievements/students) и ["Мои достижения"](https://svb369.ru/achievements/teacher).
 
-## Learn More
+|         Страница         |                                                  Описание                                                   |                 Ссылка                  |
+| :----------------------: | :---------------------------------------------------------------------------------------------------------: | :-------------------------------------: |
+|         `about/`         |                Страница "О себе". Содержит контактную информацию и документы об образовании.                |         https://svb369.ru/about         |
+|     `achievements/`      |                                   Достижения _(навигационная страница)_.                                    |     https://svb369.ru/achievements      |
+| `achievements/students/` |               Подраздел "Достижения учеников". Содержит дипломы, сертификаты и т.п. учеников.               | https://svb369.ru/achievements/students |
+| `achievements/teacher/`  |                  Подраздел "Мои достижения". Содержит дипломы, сертификаты и т.п. учителя.                  | https://svb369.ru/achievements/teacher  |
+|       `contacts/`        |                            Страница "Контакты". Содержит контактную информацию.                             |       https://svb369.ru/contacts        |
+|         `exams/`         |      Страница "Экзамены". Содержит результаты экзаменов и (опционально) обратный отсчёт до экзаменов.       |         https://svb369.ru/exams         |
+|       `materials/`       |                                    Материалы _(навигационная страница)_.                                    |       https://svb369.ru/materials       |
+|   `materials/lessons/`   |                 Подраздел "Материалы с урока". Содержит диаграммы и таблицы по информатике.                 |   https://svb369.ru/materials/lessons   |
+|   `materials/python/`    |                 Подраздел "Python". Содержит примеры кода на языке программирования Python.                 |   https://svb369.ru/materials/python    |
+|    `materials/images`    |                       Подраздел "Картинки". Содержит изображения, например, аватарки.                       |   https://svb369.ru/materials/images    |
+|         `misc/`          |                                     Разное _(навигационная страница)_.                                      |         https://svb369.ru/misc          |
+|     `misc/articles/`     |                     Подраздел "Статьи". Содержит статьи на тему информатики, ИБ и проч.                     |     https://svb369.ru/misc/articles     |
+|     `misc/programs/`     |                      Подраздел "Программы". Содержит полезные и интересные программы.                       |     https://svb369.ru/misc/programs     |
+|      `misc/videos/`      |                                     Подраздел "Видео". Содержит видео.                                      |      https://svb369.ru/misc/videos      |
+|     `misc/websites/`     |                         Подраздел "Сайты". Содержит множество занимательных сайтов.                         |      https://svb369.ru/misc/videos      |
+|         `news/`          |           Новости. Каждая новость хранится в отдельной папке, в формате [MDX](https://mdxjs.com/).          |         https://svb369.ru/news          |
+|         `olymp/`         |                                    Олимпиады _(навигационная страница)_.                                    |         https://svb369.ru/olymp         |
+|      `olymp/list/`       |                   Подраздел "Олимпиады и конкурсы". Содержит список олимпиад и конкурсов.                   |      https://svb369.ru/olymp/list       |
+|      `olymp/prep/`       | Подраздел "Ресурсы для подготовки к олимпиадам". Содержит сайты для подготовки к олимпиадам по информатике. |      https://svb369.ru/olymp/prep       |
+|        `secrets/`        |                                     Пасхалки. Содержит список пасхалок.                                     |        https://svb369.ru/secrets        |
+|       `schedule/`        |                                 Расписание. Содержит таблицу с расписанием.                                 |       https://svb369.ru/schedule        |
+|       `students/`        |                                Ученики. Содержит список некоторых учеников.                                 |       https://svb369.ru/students        |
 
-To learn more about Next.js, take a look at the following resources:
 
--   [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
--   [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Подготовка окружения
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Требования:
 
-## Deploy on Vercel
+- [Node.js](https://nodejs.org/en)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```
+npm install
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+## Запуск сервера для разработки
+
+```sh
+npm run dev
+```
+
+После этого откройте [http://localhost:3000](http://localhost:3000). При изменении кода страница автоматически перезагрузится.
+
+
+## Форматирование и линтеры
+
+```sh
+npm run lint && npm run lint:styles && npm run format
+```
+
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
+
+## Смотри также
+
+- [Документация Next.js](https://nextjs.org/docs)
+- [Интерактивный туториал Next.js](https://nextjs.org/learn)
