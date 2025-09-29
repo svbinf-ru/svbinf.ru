@@ -28,7 +28,7 @@ export default function Exams() {
                             message="До ОГЭ осталось..."
                         />
                         <Countdown
-                            date={new Date(2025, 5, 10, 10)}
+                            date={new Date(2026, 5, 10, 10)}
                             message="До ЕГЭ осталось..."
                         />
                     </GridTwoColumns>
