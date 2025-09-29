@@ -8,6 +8,7 @@ import requalification2022 from '@/assets/about/2022-профессиональ�
 import professionalDevelopmentFgos2023 from '@/assets/about/2023-повышение-квалификации-фгос.webp'
 import professionalDevelopmentItmo2023 from '@/assets/about/2023-повышение-квалификации-итмо.webp'
 import professionalDevelopmentTutor2024 from '@/assets/about/2024-повышение-квалификации-тьютор.webp'
+import professionalDevelopmentTeacher2025 from '@/assets/about/2025-повышение-квалификации-учитель.webp'
 
 import { Education } from '@/content/utils'
 
@@ -21,7 +22,7 @@ export const education: Education[] = [
         title: 'Повышение квалификации',
         description:
             'Автономная некоммерческая организация дополнительного профессионального образования «Московская академия профессиональных компетенций». По дополнительной профессиональной программе «Современные подходы к преподаванию информатики и ИКТ-технологии в образовательной деятельности в условиях реализации ФГОС». 30.07.2025',
-        thumbnail: professionalDevelopmentTutor2024,
+        thumbnail: professionalDevelopmentTeacher2025,
         full: '/img/edu/2025-повышение-квалификации-учитель.jpg',
     },  
     {
