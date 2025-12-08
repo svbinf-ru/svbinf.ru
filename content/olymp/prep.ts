@@ -4,6 +4,10 @@ import codewars from '@/assets/olymp/prep/codewars.webp'
 import informatics from '@/assets/olymp/prep/informatics.webp'
 import leetcode from '@/assets/olymp/prep/leetcode.webp'
 import timus from '@/assets/olymp/prep/timus.webp'
+import to from '@/assets/olymp/prep/to.webp'
+import io from '@/assets/olymp/prep/io.webp'
+import iml from '@/assets/olymp/prep/iml.webp'
+import aml from '@/assets/olymp/prep/aml.webp'
 
 import { OlympPrep } from '@/content/olymp'
 
@@ -50,5 +54,29 @@ export const prepResources: OlympPrep[] = [
         thumbnail: acmp,
         title: 'Школа программиста',
         description: 'Сборник олимпиадных задач по информатике.',
+    },
+        {
+        href: 'https://education.tbank.ru/school',
+        thumbnail: to,
+        title: 'Т-Образование',
+        description: 'Бесплатные курсы и мероприятия, подготовка к олимпиадам по информатике.',
+    },
+    {
+        href: 'https://education.yandex.ru/vsosh',
+        thumbnail: io,
+        title: 'Яндекс образование',
+        description: 'Бесплатные сборы для школьников 5–11-х классов.',
+    },
+    {
+        href: 'https://education.yandex.ru/handbook/ml',
+        thumbnail: iml,
+        title: 'Яндекс образование',
+        description: 'Учебник по машинному обучению.',
+    },
+    {
+        href: 'https://ml.ai-academy.ru/',
+        thumbnail: aml,
+        title: 'Академия ИИ',
+        description: 'Бесплатный онлайн-курс Машинное обучение.',
     },
 ]
