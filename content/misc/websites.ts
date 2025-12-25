@@ -72,9 +72,9 @@ export const websites: Misc[] = [
         description: 'Крошечный интернет-уголок',
     },
     {
-        href: 'https://cablemap.info/_default.aspx',
+        href: 'https://www.submarinecablemap.com/',
         thumbnail: cablemap,
-        title: 'Cable Map',
+        title: 'Submarine Cable Map',
         description: 'Карта морских коммуникаций.',
     },
     {
