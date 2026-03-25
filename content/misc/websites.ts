@@ -35,7 +35,7 @@ import visper from '@/assets/misc/websites/visper.webp'
 import wheelDecide from '@/assets/misc/websites/wheeldecide.webp'
 import winningSolitaire from '@/assets/misc/websites/winning_solitaire.webp'
 import xpression from '@/assets/misc/websites/xpression.webp'
-import Do-not-tell from '@/assets/misc/websites/Do-not-tell.webp'
+import Donottell from '@/assets/misc/websites/Donottell.webp'
 
 import { Misc } from '@/content/utils'
 
@@ -285,7 +285,7 @@ export const websites: Misc[] = [
     },
     {
         href: 'https://gandalf.lakera.ai/do-not-tell',
-        thumbnail: Do-not-tell,
+        thumbnail: Donottell,
         title: 'Do-not-tell',
         description: 'Заставьте назвать пароль',
     },
