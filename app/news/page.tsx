@@ -7,6 +7,10 @@ import { getRecentNews } from './utils'
 
 export const metadata: Metadata = {
     title: 'Новости',
+    robots: {
+        index: false,
+        follow: false,
+    },
 }
 
 export default function News() {
