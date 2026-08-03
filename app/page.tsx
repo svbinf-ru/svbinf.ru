@@ -4,7 +4,6 @@ import { CardLink } from '@/components/CardLink'
 import { Container } from '@/components/Container'
 import { GridTwoColumns } from '@/components/GridTwoColumns'
 import { HomepageNavigation } from '@/components/HomepageNavigation'
-import { NewsFeed } from '@/components/NewsFeed'
 
 export default function Home() {
     return (
@@ -36,7 +35,6 @@ export default function Home() {
                     </CardLink>
                 </GridTwoColumns>
             </Container>
-            <NewsFeed />
         </main>
     )
 }
