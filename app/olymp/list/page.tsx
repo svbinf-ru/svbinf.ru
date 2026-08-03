@@ -6,6 +6,7 @@ import { Container } from '@/components/Container'
 import { ContainerOlymp } from '@/components/ContainerOlymp'
 import { ContainerVertical } from '@/components/ContainerVertical'
 import { GridTwoColumns } from '@/components/GridTwoColumns'
+import { Quotation } from '@/components/Quotation'
 import {
     listedOlympiads,
     otherEvents,

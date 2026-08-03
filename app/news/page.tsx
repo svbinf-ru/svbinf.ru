@@ -1,7 +1,6 @@
 import { Metadata } from 'next'
 
 import { NewsEntry } from '@/components/NewsEntry'
-import { Quotation } from '@/components/Quotation'
 
 import { getRecentNews } from './utils'
 
