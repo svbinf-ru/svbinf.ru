@@ -12,9 +12,8 @@ import { Student } from '@/content/utils'
 export const students: Student[] = [
     {
         name: 'Иван Шелепугин',
-        description:
-            'Open-source разработчик, Linux-энтузиаст, создатель Hakutest.',
-        url: 'https://github.com/shelepuginivan',
+        description: 'Разработчик ПО',
+        url: 'https://shelepugin.ru/',
         picture: shelepuginivan,
     },
     {
