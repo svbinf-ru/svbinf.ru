@@ -1,10 +1,12 @@
 import { Metadata } from 'next'
 
+import marisaKirisame from '@/assets/quotes/marisa-kirisame.webp'
 import { Breadcrumbs } from '@/components/Breadcrumbs'
 import { Container } from '@/components/Container'
 import { ContainerOlymp } from '@/components/ContainerOlymp'
 import { ContainerVertical } from '@/components/ContainerVertical'
 import { GridTwoColumns } from '@/components/GridTwoColumns'
+import { Quotation } from '@/components/Quotation'
 import {
     listedOlympiads,
     otherEvents,
@@ -84,6 +86,13 @@ export default function Olympiads() {
                         ))}
                     </GridTwoColumns>
                 </ContainerVertical>
+                <Quotation
+                    quote="Это не магия, если не сверкает. Суть даммаку в огневой мощи."
+                    author="Мариса Кирисаме"
+                    picture={marisaKirisame}
+                    pictureWidth={256}
+                    pictureHeight={256}
+                />
             </Container>
         </main>
     )
