@@ -58,7 +58,7 @@ export default function Python() {
                     pictureHeight={256}
                 />
             </Container>
-            <Script src="https://cdn.svb369.ru/w/js/prism.js" />
+            <Script src="/prism/prism.js" />
         </main>
     )
 }
