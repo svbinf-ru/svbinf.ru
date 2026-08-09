@@ -12,7 +12,7 @@ import { Misc } from '@/content/utils'
 // - description (string):          Описание ресурса.
 export const videos: Misc[] = [
     {
-        href: 'https://cdn.svb369.ru/v/mp4/digital-literacy.mp4',
+        href: 'https://disk.yandex.ru/i/zxOOaYSEJFWGTw',
         thumbnail: digitalLiteracy,
         title: 'Родители, спокойно',
         description:
