@@ -15,7 +15,7 @@ const catClick = () => {
 }
 
 const zipClick = () => {
-    window.open('https://cdn.svb369.ru/x/zip/10000.zip')
+    window.open('https://disk.yandex.ru/d/KrNF--Gmh6Bdlg')
 }
 
 export const Footer: FC = () => {

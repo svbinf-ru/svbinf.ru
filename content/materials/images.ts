@@ -17,31 +17,31 @@ export const avatars: MaterialsImage[] = [
     {
         src: avatar1,
         caption: 'Аватар 1',
-        full: 'https://cdn.svb369.ru/i/avatars/01.jpg',
+        full: '/img/avatars/01.jpg',
     },
     {
         src: avatar2,
         caption: 'Аватар 2',
-        full: 'https://cdn.svb369.ru/i/avatars/05.jpg',
+        full: '/img/avatars/05.jpg',
     },
     {
         src: avatar5,
         caption: 'Аватар 3',
-        full: 'https://cdn.svb369.ru/i/avatars/31.png',
+        full: '/img/avatars/31.png',
     },
     {
         src: avatar3,
         caption: 'Аватар 4',
-        full: 'https://cdn.svb369.ru/i/avatars/17.jpg',
+        full: '/img/avatars/17.jpg',
     },
     {
         src: avatar4,
         caption: 'Аватар 5',
-        full: 'https://cdn.svb369.ru/i/avatars/22.jpg',
+        full: '/img/avatars/22.jpg',
     },
     {
         src: avatar6,
         caption: 'Аватар 6',
-        full: 'https://cdn.svb369.ru/i/avatars/33.png',
+        full: '/img/avatars/33.png',
     },
 ]
