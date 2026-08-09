@@ -22,6 +22,10 @@ const calcExperience = (): string => {
     const toYears = 31536000000
     const yearsOfExperience = Math.floor(diff / toYears)
 
+    if (yearsOfExperience >= 11 && yearsOfExperience < 20) {
+        return `${yearsOfExperience} лет`
+    }
+
     switch (yearsOfExperience % 10) {
         case 1:
             return `${yearsOfExperience} год`
