@@ -34,7 +34,7 @@ export default function Python() {
                     .
                 </p>
                 <a
-                    href="https://cdn.svb369.ru/d/pdf/python.pdf"
+                    href="/doc/python.pdf"
                     download
                     target="_blank"
                 >
