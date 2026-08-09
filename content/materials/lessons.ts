@@ -18,36 +18,36 @@ export const images: MaterialsImage[] = [
     {
         src: euler,
         caption: 'Круги Эйлера',
-        full: 'https://cdn.svb369.ru/i/png/euler.png',
+        full: '/img/materials/lessons/euler.png',
     },
     {
         src: graph,
         caption: 'Граф',
-        full: 'https://cdn.svb369.ru/i/png//graph.png',
+        full: '/img/materials/lessons/graph.png',
     },
     {
         src: units,
         caption: 'Перевод единиц измерения',
-        full: 'https://cdn.svb369.ru/i/png/units.png',
+        full: '/img/materials/lessons/units.png',
     },
     {
         src: powers,
         caption: 'Степени двойки',
-        full: 'https://cdn.svb369.ru/i/png/powers.png',
+        full: '/img/materials/lessons/powers.png',
     },
     {
         src: bin,
         caption: 'Триады и тетрады',
-        full: 'https://cdn.svb369.ru/i/png/bin.png',
+        full: '/img/materials/lessons/bin.png',
     },
     {
         src: logic,
         caption: 'Законы алгебры логики',
-        full: 'https://cdn.svb369.ru/i/png/logic.png',
+        full: '/img/materials/lessons/logic.png',
     },
     {
         src: logicOp,
         caption: 'Логические операции',
-        full: 'https://cdn.svb369.ru/i/png/logic-op.png',
+        full: '/img/materials/lessons/logic-op.png',
     },
 ]
