@@ -11,7 +11,7 @@ import { Header } from '@/components/Header'
 import styles from './layout.module.scss'
 
 export const metadata: Metadata = {
-    metadataBase: new URL('https://svb369.ru'),
+    metadataBase: new URL('https://svbinf.ru'),
     title: {
         template: '%s | Вадим Борисович',
         default: 'Вадим Борисович',
