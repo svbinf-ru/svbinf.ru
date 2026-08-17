@@ -1,5 +1,3 @@
-// @ts-check
-
 import withMDX from '@next/mdx'
 import withPWA from 'next-pwa'
 import remarkGfm from 'remark-gfm'
