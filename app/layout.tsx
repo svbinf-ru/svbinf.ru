@@ -11,7 +11,7 @@ import { Header } from '@/components/Header'
 import styles from './layout.module.scss'
 
 export const metadata: Metadata = {
-    metadataBase: new URL('https://svb369.ru'),
+    metadataBase: new URL('https://svbinf.ru'),
     title: {
         template: '%s | Вадим Борисович',
         default: 'Вадим Борисович',
@@ -19,7 +19,6 @@ export const metadata: Metadata = {
     description:
         'Сайт учителя информатики Вадима Борисовича Скотникова. Здесь вы можете узнать информацию об олимпиадах, скачать полезные материалы, найти ссылки на интересные сайты, программы и статьи. А также можете найти секретные послания.',
     applicationName: 'Вадим Борисович',
-    creator: 'Иван Шелепугин <https://shelepugin.ru>',
     keywords: [
         'Education',
         'Computer Science',
