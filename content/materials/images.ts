@@ -19,11 +19,7 @@ export const avatars: MaterialsImage[] = [
         caption: 'Аватар 5',
         full: '/img/avatars/22.jpg',
     },
-    {
-        src: avatar1,
-        caption: 'Аватар 1',
-        full: '/img/avatars/01.jpg',
-    },
+    
     
     {
         src: avatar5,
@@ -40,7 +36,11 @@ export const avatars: MaterialsImage[] = [
         caption: 'Аватар 2',
         full: '/img/avatars/05.jpg',
     },
-    
+    {
+        src: avatar1,
+        caption: 'Аватар 1',
+        full: '/img/avatars/01.jpg',
+    },
     {
         src: avatar6,
         caption: 'Аватар 6',
