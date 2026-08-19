@@ -16,19 +16,25 @@ import { MaterialsImage } from '@/content/utils'
 //                              (в большем разрешении и с большим размером).
 export const images: MaterialsImage[] = [
     {
-        src: euler,
-        caption: 'Круги Эйлера',
-        full: '/img/materials/lessons/euler.png',
-    },
-    {
         src: graph,
         caption: 'Граф',
         full: '/img/materials/lessons/graph.png',
     },
     {
+        src: euler,
+        caption: 'Круги Эйлера',
+        full: '/img/materials/lessons/euler.png',
+    },
+    
+    {
         src: units,
         caption: 'Перевод единиц измерения',
         full: '/img/materials/lessons/units.png',
+    },
+    {
+        src: logicOp,
+        caption: 'Логические операции',
+        full: '/img/materials/lessons/logic-op.png',
     },
     {
         src: powers,
@@ -36,18 +42,13 @@ export const images: MaterialsImage[] = [
         full: '/img/materials/lessons/powers.png',
     },
     {
-        src: bin,
-        caption: 'Триады и тетрады',
-        full: '/img/materials/lessons/bin.png',
-    },
-    {
         src: logic,
         caption: 'Законы алгебры логики',
         full: '/img/materials/lessons/logic.png',
     },
     {
-        src: logicOp,
-        caption: 'Логические операции',
-        full: '/img/materials/lessons/logic-op.png',
+        src: bin,
+        caption: 'Триады и тетрады',
+        full: '/img/materials/lessons/bin.png',
     },
 ]
