@@ -8,6 +8,47 @@ import { MaterialsCode } from '../utils'
 //                        оставить этот сервис для единообразия.
 export const codeExamples: MaterialsCode[] = [
     {
+        code: `from itertools import *
+
+def f(x,y,z,w):
+    return ((x <= y) and (y <= w)) or (z == (x or y))
+
+for a1, a2, a3, a4, a5, a6, a7 in product([0,1], repeat=7):
+    table = [
+        (1, a1, a2, 1),
+        (1, a3, a4, a5),
+        (a6, 1, a7, 1)
+    ]
+
+    if len(table) == len(set(table)):
+        for p in permutations("xyzw"):
+            if [f(**dict(zip(p,r))) for r in table]==[0,0,0]:
+                print(p)`,
+        caption: 'Подбор таблицы истинности',
+        playground: 'https://pythononline.net/#eDbe2k',
+    },
+    {
+        code: `ans = []
+
+for n in range(1000, 10000):
+    s = str(n)
+    k1 = int(s[0]) + int(s[1])
+    k2 = int(s[1]) + int(s[2])
+    k3 = int(s[2]) + int(s[3])
+    
+    maxk = str(max(k1, k2, k3))
+    mink = str(min(k1, k2, k3))
+    avgk  = str(k1+k2+k3 - max(k1, k2, k3) - min(k1, k2, k3))
+
+    r = avgk + maxk
+    if r == "1517":
+        ans.append(n)
+
+print(min(ans))`,
+        caption: 'Обработка десятичного числа',
+        playground: 'https://pythononline.net/#rm6LIH',
+    },
+    {
         code: `from itertools import permutations
 
 count = 0
@@ -41,6 +82,48 @@ print(count)`,
         playground: 'https://pythononline.net/#mFvBzo',
     },
     {
+        code: `for n in range(1, 1000):
+    s = bin(n)[2:]
+    sums = s.count("1") % 2
+    s = s + str(sums)
+    sums = s.count("1") % 2
+    s = s + str(sums)
+    r = int(s, 2)
+    if r > 80:
+        print(r)
+        break`,
+        caption: 'Обработка двоичного числа',
+        playground: 'https://pythononline.net/#M3O9mA',
+    },
+    {
+        code: `s = "8" * 70
+
+while ("2222" in s) or ("8888" in s):
+    if "2222" in s:
+        s = s.replace("2222", "88", 1)
+    else:
+        s = s.replace("8888", "22", 1)
+
+print(s)`,
+        caption: 'Замена символов в строке',
+        playground: 'https://pythononline.net/#ACEA68',
+    },
+    {
+        code: `from ipaddress import *
+
+net = ip_network('192.168.32.160/255.255.255.240')
+count = 0
+
+for ip in net:
+    k=f'{ip:b}'
+    if k.count('1') % 2 == 0:
+        count += 1
+
+print(count)`,
+        caption: 'Работа с IP-адресами',
+        playground: 'https://pythononline.net/#8JqfrT',
+    },
+    {
         code: `x = 3*16**8 - 4**5 + 3
 ans = ""
 
@@ -64,39 +147,6 @@ for x in alf[:15]:
         playground: 'https://pythononline.net/#ybiBha',
     },
     {
-        code: `from itertools import *
-
-def f(x,y,z,w):
-    return ((x <= y) and (y <= w)) or (z == (x or y))
-
-for a1, a2, a3, a4, a5, a6, a7 in product([0,1], repeat=7):
-    table = [
-        (1, a1, a2, 1),
-        (1, a3, a4, a5),
-        (a6, 1, a7, 1)
-    ]
-
-    if len(table) == len(set(table)):
-        for p in permutations("xyzw"):
-            if [f(**dict(zip(p,r))) for r in table]==[0,0,0]:
-                print(p)`,
-        caption: 'Подбор таблицы истинности',
-        playground: 'https://pythononline.net/#eDbe2k',
-    },
-    {
-        code: `s = "8" * 70
-
-while ("2222" in s) or ("8888" in s):
-    if "2222" in s:
-        s = s.replace("2222", "88", 1)
-    else:
-        s = s.replace("8888", "22", 1)
-
-print(s)`,
-        caption: 'Замена символов в строке',
-        playground: 'https://pythononline.net/#ACEA68',
-    },
-    {
         code: `for a in range(1, 10000):
     f = True
     for x in range(1, 10000):
@@ -107,55 +157,5 @@ print(s)`,
         break`,
         caption: 'Проверка выражения',
         playground: 'https://pythononline.net/#0IM7iL',
-    },
-    {
-        code: `from ipaddress import *
-
-net = ip_network('192.168.32.160/255.255.255.240')
-count = 0
-
-for ip in net:
-    k=f'{ip:b}'
-    if k.count('1') % 2 == 0:
-        count += 1
-
-print(count)`,
-        caption: 'Работа с IP-адресами',
-        playground: 'https://pythononline.net/#8JqfrT',
-    },
-    {
-        code: `for n in range(1, 1000):
-    s = bin(n)[2:]
-    sums = s.count("1") % 2
-    s = s + str(sums)
-    sums = s.count("1") % 2
-    s = s + str(sums)
-    r = int(s, 2)
-    if r > 80:
-        print(r)
-        break`,
-        caption: 'Обработка двоичного числа',
-        playground: 'https://pythononline.net/#M3O9mA',
-    },
-    {
-        code: `ans = []
-
-for n in range(1000, 10000):
-    s = str(n)
-    k1 = int(s[0]) + int(s[1])
-    k2 = int(s[1]) + int(s[2])
-    k3 = int(s[2]) + int(s[3])
-    
-    maxk = str(max(k1, k2, k3))
-    mink = str(min(k1, k2, k3))
-    avgk  = str(k1+k2+k3 - max(k1, k2, k3) - min(k1, k2, k3))
-
-    r = avgk + maxk
-    if r == "1517":
-        ans.append(n)
-
-print(min(ans))`,
-        caption: 'Обработка десятичного числа',
-        playground: 'https://pythononline.net/#rm6LIH',
     },
 ]
