@@ -43,7 +43,7 @@ export default function Images() {
                             href="https://github.com/svb369-ru/avatars"
                             target="_blank"
                         >
-                            репозитории GitHub
+                            в репозитории GitHub
                         </a>
                         .
                     </b>
