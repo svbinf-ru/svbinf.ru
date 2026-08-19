@@ -24,11 +24,11 @@ export default function Exams() {
                 <ContainerVertical>
                     <GridTwoColumns>
                         <Countdown
-                            date={new Date(2025, 4, 26, 10)}
+                            date={new Date(2027, 5, 1, 10)}
                             message="До ОГЭ осталось..."
                         />
                         <Countdown
-                            date={new Date(2026, 5, 10, 10)}
+                            date={new Date(2027, 5, 1, 10)}
                             message="До ЕГЭ осталось..."
                         />
                     </GridTwoColumns>
