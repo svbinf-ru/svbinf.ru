@@ -36,9 +36,9 @@ export default function Images() {
                             href="https://disk.yandex.ru/d/KcMaRe81-k5ouw"
                             target="_blank"
                         >
-                            можно скачать с Диска
+                            доступно на Диске
                         </a>
-                        или{' '}
+                         или{' '}
                         <a
                             href="https://github.com/svb369-ru/avatars"
                             target="_blank"
