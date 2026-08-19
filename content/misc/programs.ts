@@ -80,7 +80,7 @@ export const programs: Misc[] = [
         thumbnail: keepassxc,
         title: 'KeePassXC',
         description:
-            'Удобный и безопасный менеджер пароль с множеством возможностей.',
+            'Удобный и безопасный менеджер паролей с множеством возможностей.',
     },
     {
         href: 'https://obsidian.md/',
