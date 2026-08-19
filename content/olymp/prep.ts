@@ -18,6 +18,25 @@ import { OlympPrep } from '@/content/olymp'
 // - description (string):          Описание ресурса.
 export const prepResources: OlympPrep[] = [
     {
+        href: 'https://codeforces.com/',
+        thumbnail: codeforces,
+        title: 'Codeforces',
+        description:
+            'Проект, объединяющий людей, интересующихся и принимающих участие в конкурсах по программированию.',
+    },
+    {
+        href: 'https://informatics.msk.ru/',
+        thumbnail: informatics,
+        title: 'Информатикс',
+        description: 'Учебные и олимпиадные задачи по информатике.',
+    },
+    {
+        href: 'https://acmp.ru/index.asp?main=tasks',
+        thumbnail: acmp,
+        title: 'Школа программиста',
+        description: 'Сборник олимпиадных задач по информатике.',
+    },
+    {
         href: 'https://www.codewars.com/',
         thumbnail: codewars,
         title: 'Codewars',
@@ -37,25 +56,6 @@ export const prepResources: OlympPrep[] = [
             'Российский архив задач по программированию с автоматической системой проверки.',
     },
     {
-        href: 'https://codeforces.com/',
-        thumbnail: codeforces,
-        title: 'Codeforces',
-        description:
-            'Проект, объединяющий людей, интересующихся и принимающих участие в конкурсах по программированию.',
-    },
-    {
-        href: 'https://informatics.msk.ru/',
-        thumbnail: informatics,
-        title: 'Информатикс',
-        description: 'Учебные и олимпиадные задачи по информатике.',
-    },
-    {
-        href: 'https://acmp.ru/index.asp?main=tasks',
-        thumbnail: acmp,
-        title: 'Школа программиста',
-        description: 'Сборник олимпиадных задач по информатике.',
-    },
-        {
         href: 'https://education.tbank.ru/school',
         thumbnail: to,
         title: 'Т-Образование',
