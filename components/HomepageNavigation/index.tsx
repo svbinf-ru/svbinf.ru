@@ -9,7 +9,6 @@ import styles from './styles.module.scss'
 export const HomepageNavigation: FC = () => {
     return (
         <Container>
-            <h2>Навигация</h2>
             <Grid>
                 <nav className={styles.group}>
                     <Link href="/olymp/prep">Подготовка к олимпиадам</Link>
