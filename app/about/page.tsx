@@ -74,6 +74,16 @@ export default function About() {
                         </Link>{' '}
                         с 26 января 2023.
                     </p>
+                    <p>
+                        Установлена{' '}
+                        <Link
+                            href="/doc/об-установлении-высшей-квалификационной-категории 2.pdf"
+                            target="_blank"
+                        >
+                            <b>высшая квалификационная категория</b>
+                        </Link>{' '}
+                        с 22 июля 2026.
+                    </p>
                 </Card>
                 <GridTwoColumnsLarge>
                     {education.map((e, i) => (
