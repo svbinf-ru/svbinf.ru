@@ -30,33 +30,24 @@ export const images: MaterialsImage[] = [
         caption: 'Законы алгебры логики',
         full: '/img/materials/lessons/logic.png',
     },
-
-
-
-    
-    
     {
-        src: graph,
-        caption: 'Граф',
-        full: '/img/materials/lessons/graph.png',
+        src: logicOp,
+        caption: 'Логические операции',
+        full: '/img/materials/lessons/logic-op.png',
     },
     {
         src: euler,
         caption: 'Круги Эйлера',
         full: '/img/materials/lessons/euler.png',
     },
-    
     {
         src: units,
         caption: 'Перевод единиц измерения',
         full: '/img/materials/lessons/units.png',
     },
     {
-        src: logicOp,
-        caption: 'Логические операции',
-        full: '/img/materials/lessons/logic-op.png',
+        src: graph,
+        caption: 'Граф',
+        full: '/img/materials/lessons/graph.png',
     },
-    
-    
-    
 ]
