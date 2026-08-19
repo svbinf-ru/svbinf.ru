@@ -38,7 +38,7 @@ export default function Images() {
                         >
                             доступно на Диске
                         </a>
-                         или{' '}
+                        {' '}и{' '}
                         <a
                             href="https://github.com/svb369-ru/avatars"
                             target="_blank"
