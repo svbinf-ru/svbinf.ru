@@ -16,6 +16,26 @@ import { MaterialsImage } from '@/content/utils'
 //                              (в большем разрешении и с большим размером).
 export const images: MaterialsImage[] = [
     {
+        src: bin,
+        caption: 'Триады и тетрады',
+        full: '/img/materials/lessons/bin.png',
+    },
+    {
+        src: powers,
+        caption: 'Степени двойки',
+        full: '/img/materials/lessons/powers.png',
+    },
+    {
+        src: logic,
+        caption: 'Законы алгебры логики',
+        full: '/img/materials/lessons/logic.png',
+    },
+
+
+
+    
+    
+    {
         src: graph,
         caption: 'Граф',
         full: '/img/materials/lessons/graph.png',
@@ -36,19 +56,7 @@ export const images: MaterialsImage[] = [
         caption: 'Логические операции',
         full: '/img/materials/lessons/logic-op.png',
     },
-    {
-        src: powers,
-        caption: 'Степени двойки',
-        full: '/img/materials/lessons/powers.png',
-    },
-    {
-        src: logic,
-        caption: 'Законы алгебры логики',
-        full: '/img/materials/lessons/logic.png',
-    },
-    {
-        src: bin,
-        caption: 'Триады и тетрады',
-        full: '/img/materials/lessons/bin.png',
-    },
+    
+    
+    
 ]
