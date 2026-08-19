@@ -15,6 +15,11 @@ import { MaterialsImage } from '../utils'
 //                              (в большем разрешении и с большим размером).
 export const avatars: MaterialsImage[] = [
     {
+        src: avatar3,
+        caption: 'Аватар 4',
+        full: '/img/avatars/17.jpg',
+    },
+    {
         src: avatar5,
         caption: 'Аватар 3',
         full: '/img/avatars/31.png',
@@ -23,11 +28,6 @@ export const avatars: MaterialsImage[] = [
         src: avatar4,
         caption: 'Аватар 5',
         full: '/img/avatars/22.jpg',
-    },
-    {
-        src: avatar3,
-        caption: 'Аватар 4',
-        full: '/img/avatars/17.jpg',
     },
     {
         src: avatar2,
